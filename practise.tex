@@ -2,19 +2,20 @@
 % This is all preamble
 % --------------------------------------------------------------
  
-\documentclass[12pt]{article}
+\documentclass[10pt]{article}
 
 
 % Basic Packages for Encoding (Input AND Output) and Langauge Support
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[english]{babel}
+\usepackage[french]{babel}
 
 % Change Layout with a User-Friendly Interface
 \usepackage[margin=1in]{geometry} 
 
 % Include Pictures with a User-Friendly Interface
 \usepackage{graphicx}
+\graphicspath{ {./images/statistics_and_probability/} }
 \usepackage{float}
 
 % Extended Math Support from the Famous 'American Mathematical Society'
@@ -24,39 +25,69 @@
 \usepackage{titlesec}
 
 \titleformat{\section}
-  {\normalfont\scshape}{\thesection}{1em}{}
+            {\normalfont\scshape}{\thesection}{1em}{}
 
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
-
 
 %Numbered Questions 
 \newcounter{question}
 \newenvironment{question}
                {\refstepcounter{question}\par\medskip\noindent\textbf{Q~\thequestion.}\par \noindent \rmfamily}
                {\medskip}
-               
+
+\usepackage{pgfplots}
+ 
 \begin{document}
  
 % --------------------------------------------------------------
 %                        Actual content
 % --------------------------------------------------------------
- 
-%\renewcommand{\qedsymbol}{\filledbox}
- 
-\title{Practise Document}
-\author{Pierre Bernatchez}
+
+\title{Exercices de révision: Calcul}
+\author{Pierre B. \thanks{this is just a scratch .tex file I use for experimenting}}
 \date{\today}
 \maketitle
+%
+% Ellipse Begin
+%
+\begin{tikzpicture}
+  \def\Xmax{3}    \def\Ymax{3}
+  \def\X{1}       \def\Y{2}
+  \begin{axis}[
+      width=8cm,  height=8cm,
+      scale only axis=true,
+      %
+      xmin=-\Xmax,   xmax=\Xmax,
+      ymin=-\Ymax,   ymax=\Ymax,
+      %
+      extra x ticks={-\X,\X},
+      extra y ticks={-\Y,\Y},
+      extra tick style={grid=major},
+    ]
+    % Trying to plot an ellipse centered at coordinates (2,-1) and having
+    % half axes of legnth 1 and 2.
+    \pgfplotsextra{% <--- important!
+      %
+      % we compute the (x,y) coordinates as difference to be
+      % independent of the (0pt,0pt) used internally by pgfplots
+      \pgfpointdiff
+	  {\pgfplotspointaxisxy{0}{0}}
+	  {\pgfplotspointaxisxy{\X}{\Y}}
+	  \extractpgfxy{\RADIUSX}{\RADIUSY}%
+	  %
+	  % I used the option form for ellipse because the '\RADIUSX and' seems
+          % to be a problem in pgf (?)
+	  \draw[black] (axis cs:0,0)
+          ellipse [          x radius=\RADIUSX,y radius=\RADIUSY];
+	  \draw[red]   (axis cs:0,0)
+          ellipse [rotate=90,x radius=\RADIUSX,y radius=\RADIUSY];
+    }
+    \addplot [only marks,mark=*] coordinates { (0,0) };
+  \end{axis}
+\end{tikzpicture}
 
-\section{User-defined numbered environment}
-
-
-\begin{question}
-  \hspace*{\fill} max: 16\par
-  Middle Stuff
-\end{question}
-\begin{question}
-Woohoo Dude
-\end{question}
+%
+% Ellipse End
+%
 \end{document}
