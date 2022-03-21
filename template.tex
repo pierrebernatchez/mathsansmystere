@@ -1,0 +1,61 @@
+% --------------------------------------------------------------
+% This is all preamble
+% --------------------------------------------------------------
+ 
+\documentclass[10pt]{article}
+
+
+% Basic Packages for Encoding (Input AND Output) and Langauge Support
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{enumitem}
+
+% Change Layout with a User-Friendly Interface
+\usepackage[margin=1in]{geometry}
+
+% so that we can import question snippets.
+\usepackage{import}
+
+% Include Pictures with a User-Friendly Interface
+\usepackage{graphicx}
+\graphicspath{ {./images/template/} }
+\usepackage{float}
+
+% Extended Math Support from the Famous 'American Mathematical Society'
+\usepackage{amsmath,amsthm,amssymb}
+
+% Section title formatting
+\usepackage{titlesec}
+
+\titleformat{\section}
+            {\normalfont\scshape}{\thesection}{1em}{}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\usepackage{pgfplots}
+
+
+%Numbered Questions 
+\newcounter{question}
+\newenvironment{question}
+               {\refstepcounter{question}\par\medskip\noindent\textbf{Q~\thequestion.}\par \noindent \rmfamily}
+               {\medskip}
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                        Actual content
+% --------------------------------------------------------------
+
+\title{exercise template}
+\author{Pierre B. \thanks{The questions are drawn from somewhere useful}}
+\date{\today}
+\maketitle
+
+\newpage
+%% include questions here
+\import{./tex/template/}{templatequestion.tex}
+%%
+\end{document}
