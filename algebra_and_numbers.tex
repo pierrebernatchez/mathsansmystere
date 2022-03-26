@@ -1,0 +1,82 @@
+% --------------------------------------------------------------
+% This is all preamble
+% --------------------------------------------------------------
+ 
+\documentclass[10pt]{article}
+
+
+% Basic Packages for Encoding (Input AND Output) and Langauge Support
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{enumitem}
+
+% Change Layout with a User-Friendly Interface
+\usepackage[margin=1in]{geometry}
+
+% so that we can import question snippets.
+\usepackage{import}
+
+% Include Pictures with a User-Friendly Interface
+\usepackage{graphicx}
+
+\graphicspath{ {./images/algebra_and_numbers/} }
+\usepackage{float}
+
+% Extended Math Support from the Famous 'American Mathematical Society'
+\usepackage{amsmath,amsthm,amssymb}
+
+% Section title formatting
+\usepackage{titlesec}
+
+\titleformat{\section}
+            {\normalfont\scshape}{\thesection}{1em}{}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\usepackage{pgfplots}
+
+
+%Numbered Questions 
+\newcounter{question}
+\newenvironment{question}
+               {\refstepcounter{question}\par\medskip\noindent\textbf{Q~\thequestion.}\par \noindent \rmfamily}
+               {\medskip}
+
+% --------------------------------------------------------------
+%                        Actual content
+% --------------------------------------------------------------
+
+\begin{document}
+ 
+\title{Exercices de révision: Nombres et Algèbre}
+\author{Annie B. \thanks{Les questions sont tirées des examens de l’IB de 2018, 2012, 2011, 2010, 2007}}
+\date{\today}
+\maketitle
+
+\newpage
+%% include questions here
+\section*{\textbf{Calculatrice Graphique Non Permise}}
+\import{./tex/algebra_and_numbers/}{x01.tex}
+\bigskip
+\import{./tex/algebra_and_numbers/}{x02.tex}
+\bigskip
+\import{./tex/algebra_and_numbers/}{x03.tex}
+\bigskip
+\import{./tex/algebra_and_numbers/}{x04.tex}
+\bigskip
+\section*{\textbf{Calculatrice Graphique Permise}}
+\import{./tex/algebra_and_numbers/}{x05.tex}
+\bigskip
+\import{./tex/algebra_and_numbers/}{x06.tex}
+\newpage
+\import{./tex/algebra_and_numbers/}{x07.tex}
+\bigskip
+\import{./tex/algebra_and_numbers/}{x08.tex}
+\bigskip
+\import{./tex/algebra_and_numbers/}{x09.tex}
+\bigskip
+\import{./tex/algebra_and_numbers/}{x10.tex}
+%%
+\end{document}
