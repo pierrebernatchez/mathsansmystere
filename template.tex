@@ -8,6 +8,11 @@
 % Basic Packages for Encoding (Input AND Output) and Langauge Support
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+
+%%
+%% THIS IS WHERE WE INDICATE THE LANGUAGE WE ARE USING.
+%% It affects the language used for directives such as  \today
+%%
 \usepackage[french]{babel}
 \usepackage{enumitem}
 
@@ -18,6 +23,10 @@
 \usepackage{import}
 
 % Include Pictures with a User-Friendly Interface
+%%
+%% THIS IS WHERE WE INDICATE THE LOCATION OF IMAGE FILES
+%% IT GOVERNS WHERE THE \includegraphics DIRECTIVE LOOKS FOR FILES
+%%
 \usepackage{graphicx}
 \graphicspath{ {./images/template/} }
 \usepackage{float}
@@ -42,20 +51,34 @@
 \newenvironment{question}
                {\refstepcounter{question}\par\medskip\noindent\textbf{Q~\thequestion.}\par \noindent \rmfamily}
                {\medskip}
+               
+%% Now you can just wrap your question latex directives  between \begin{question} and \end{question}
+%% and they will be consecutively labelled Q1, Q2.....               
 
-\begin{document}
- 
 % --------------------------------------------------------------
 %                        Actual content
 % --------------------------------------------------------------
 
+\begin{document}
+ 
 \title{exercise template}
 \author{Pierre B. \thanks{The questions are drawn from somewhere useful}}
 \date{\today}
 \maketitle
 
-\newpage
 %% include questions here
+%% one such directive per question each separated by spacing such as \bigskip or \newpage
+%% they will be numbered sequentially starting from 1
+%% 
+\newpage
+\section*{\textbf{Calculatrice Graphique Non Permise}}
+\import{./tex/template/}{templatequestion.tex}
+\bigskip
+\import{./tex/template/}{templatequestion.tex}
+\newpage
+\section*{\textbf{Calculatrice Graphique Permise}}
+\import{./tex/template/}{templatequestion.tex}
+\bigskip
 \import{./tex/template/}{templatequestion.tex}
 %%
 \end{document}
