@@ -1,0 +1,4 @@
+#!/bin/bash
+# generates a list of the first lines of all the question files
+# to make sure they all are correctly commented
+find tex -type f -exec head -1 {} \; | sort
