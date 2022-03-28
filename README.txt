@@ -41,6 +41,8 @@ directories for those under the images/ directory. See below.
 
 For your information, template refers to files we keep as a reminder
 of the latex source used to compose these questions and exercises.
+One example of a single question, and one example of a multipart
+question.
 
 Question file subdirectories are all under the tex/ subdirectories.
 As Follows:
