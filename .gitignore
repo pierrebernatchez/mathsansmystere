@@ -4,3 +4,4 @@
 *.log
 *.bak
 pdf_docs/*.pdf
+out_docs/*
