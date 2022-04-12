@@ -20,7 +20,32 @@ Install non pip packages we are going to rely on.
 
 .. code-block:: bash
 		
-    sudo apt install rst2pdf
+    sudo apt install rst2pdf               # For  generating mathsansmystere's own  documentation
+    sudo apt-get install texlive-latex-bas # For pdflatex (used to convert latex to pdf)
+    sudo apt install texlive-lang-french texlive-lang-spanish # for french and spanish babel languages
+    sudo apt install s3cmd                 # publishing to S3 bucket
+
+
+Set up credentials for accessing S3 bucket where docs will be published.
+
+.. code-block:: bash
+
+    s3cmd --configure
+
+
+You will be prompted for responses to a series of questions.
+Respond with <enter> or yes (whichever is appropriate) for all responses
+except the ones below.
+
+::
+
+    Access Key: your access key beginning with AKIA
+    Secret Key: the secret key for the above access key
+    Default Region: US
+    Encryption password: The encryption key we (may) use to encypt/decrypt uploading/downloading
+
+
+Set up the virtual python environement we want.
 
 .. code-block:: bash
 
@@ -28,7 +53,7 @@ Install non pip packages we are going to rely on.
     deactivate     # Omit this unless you are alread in a different virtual environement
     cd ${HOME}
     sudo apt install python3.8-venv  # This is required on ubuntu systems in order for the next command to work
-    python3.8 -m venv mathsansmystere_venv  # make sure it is >= python3.8 otherwise latexhelper wont install     
+    python3.8 -m venv mathsansmystere_venv  # >= python3.8 otherwise latexhelper wont install     
     source mathsansmystere_venv/bin/activate
 
 We install the pip bare essentials.
@@ -36,9 +61,9 @@ We install the pip bare essentials.
 .. code-block:: bash
     
     python -m pip install -U pip
-    pip install wheel
-    pip install setuptools
-    pip install twine
+    pip install --no-cache-dir wheel
+    pip install --no-cache-dir setuptools_rust
+    pip install --no-cache-dir twine
 
 We install our latex generator tool into our virtual environment.
 
@@ -48,10 +73,10 @@ We install our latex generator tool into our virtual environment.
 
     pip install --no-cache-dir markdown  # latexhelper needs this
 
-    pip install -i https://mathsansmystere.bernatchez.net:3141/pbernatchez/dev latexhelper
+    pip install --no-cache-dir  -i https://mathsansmystere.bernatchez.net:3141/pbernatchez/dev latexhelper
     
     # OR until our private packege index is securely accessible via SSL
 
-    pip install --trusted-host mathsansmystere.bernatchez.net -i http://mathsansmystere.bernatchez.net:3141/pbernatchez/dev latexhelper
+    pip install --no-cache-dir --trusted-host mathsansmystere.bernatchez.net -i http://mathsansmystere.bernatchez.net:3141/pbernatchez/dev latexhelper
     
    
