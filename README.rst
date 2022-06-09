@@ -25,6 +25,7 @@ They are made up of some predetermined latex preamble, some configurable
 title and author information, and user selected question snippets [#snip]_
 taken from our collection of questions.
 
+
 ..  [#snip] Snippets are latex marked up question files named like xNN.tex.  The have no preamble, and as such cannot be compiled alone.  They must be imported into a file that contains apreamble and the begin(document)/end(document) statements.
 	    
 All our questions are pooled in the following IB related categories [#ibcat]_.

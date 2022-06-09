@@ -1,0 +1,40 @@
+#!/bin/bash
+#
+# bash trick to obtain a clean absolute path to this script.
+#
+pushd `dirname $0` >/dev/null
+SCRIPTPATH=`pwd -P`
+popd >/dev/null
+#
+# Syncs .pdf documentation (generated from the project .rst files) up to the website where the math sans mystere service resides.
+#
+# Alter these to  correspond with where you are hosting the service
+###################################################################
+MYPROGNAME=`basename $0`
+MYDIR="${SCRIPTPATH}"
+export MYDIR
+pushd ${MYDIR} >/dev/null
+S3_PDF_TARGET="s3://www.bernatchez.net/mathsansystere/pdf_docs/"
+HTTP_PDF_TARGET="https://s3.amazonaws.com/www.bernatchez.net/mathsansystere/pdf_docs/"
+echo uploading all files from ${MYDIR} to ${S3_PDF_TARGET}
+S3CONFIGFILE="${HOME}/s3conf_mathsansmystere"
+S3CMD_WITH_CONFIG="s3cmd -c ${S3CONFIGFILE}"
+S3CMD_WITHOUT_CONFIG="s3cmd"
+if [[ -f "${S3CONFIGFILE}" ]] ; then
+    echo ${S3CMD_WITH_CONFIG} sync --delete-removed ./*.pdf ${S3_PDF_TARGET}
+    ${S3CMD_WITH_CONFIG} sync --delete-removed ./*.pdf ${S3_PDF_TARGET}
+    echo You can view documents using these links
+    for entry in ./*.pdf
+    do
+        echo ${HTTP_PDF_TARGET}$(basename ${entry})
+    done
+else
+    echo ${S3CMD_WITHOUT_CONFIG} sync --delete-removed ./*.pdf ${S3_PDF_TARGET}
+    ${S3CMD_WITHOUT_CONFIG} sync --delete-removed ./*.pdf ${S3_PDF_TARGET}
+    echo You can view documents using these links
+    for entry in ./*.pdf
+    do
+        echo ${HTTP_PDF_TARGET}$(basename ${entry})
+    done
+fi
+    

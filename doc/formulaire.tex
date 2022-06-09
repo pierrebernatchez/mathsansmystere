@@ -1,0 +1,10 @@
+\documentclass{article}
+\usepackage{hyperref}
+\begin{document}
+\begin{Form}[action=mailto:pbz@ogopogo.biz?subject={The submitted form},method=post]
+    \noindent\TextField[name=name]{Name:}\\[1mm]
+    \ChoiceMenu[radio,name=gender]{Gender:}{male=male,female=fem}\\[1mm]
+    \TextField[name=email,width=5cm]{E-mail:}\\[5mm]
+    \Reset{Reset} \quad \Submit{Submit} \quad  \Acrobatmenu{Print}{Print}
+\end{Form}
+\end{document}

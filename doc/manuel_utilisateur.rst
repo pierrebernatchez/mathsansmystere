@@ -4,20 +4,19 @@ Manuel de l'utilisateur
 Nous offrons içi une collection de questions de mathématiques organisée
 dans les cinq catégories prescrites par le I.B.
 
-Notre objectif est dappuyer aux enseignants de mathématique.  C'est à dire
+Notre objectif est d'appuyer aux enseignants de mathématique.  C'est à dire
 rendre facile la préparation d'éxercises pour leurs élèves et ainsi
-leurs permettre de dévouer leur temps à lenseignement au lieu de
+leurs permettre de dévouer plus de leur temps à l'enseignement au lieu de la
 préparation de matériaux.
 
 Ce manuel décrit comment les enseignants peuvent choisir quelques
 questions de la collection et de les recevoir sous forme d'un document
 PDF d'éxercise.
 
-
-L'enseignant doit tout simplement noter les numéros de question
-qu'il a choisi dans l'un des fichiers ci-dessous pour l'éxercise et
-de soumettre la liste de ces numéros dans le formulaire d'une page web
-et elle recevra l'exercise en forme de document PDF.
+L'enseignant doit tout simplement noter les numéros des questions
+qu'il a choisi dans l'un des fichiers ci-dessous pour l'éxercise et de
+soumettre cette liste de numéros dans le formulaire d'une page web et
+il recevra tout de suite l'exercise en forme de document PDF.
 
 
 
