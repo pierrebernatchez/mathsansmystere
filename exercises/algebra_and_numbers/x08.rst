@@ -1,0 +1,12 @@
+Q 8.
+====
+
+Considérez le développement de :math:`(x + 2)^{11}`.
+
+A) Donnez le nombre de termes dans de développement.
+
+B) Trouvez le terme contenant :math:`x^2`.
+
+
+
+  

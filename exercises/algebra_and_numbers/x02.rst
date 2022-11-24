@@ -1,0 +1,7 @@
+Q 2.
+====
+
+Étant donné que :math:`\left(1 + \frac{2}{3}\,x \right)^n(3 + nx)^2 = 9 + 84x + ...`, Trouvez la valeur de :math:`n`.
+
+
+

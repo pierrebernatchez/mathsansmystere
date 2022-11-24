@@ -1,0 +1,11 @@
+Q 7.
+====
+
+Le premier terme d'une suite géometrique est :math:`200` et la somme des quatres premiers termes est :math:`324,8`.
+
+A) Trouvez la raison.
+
+B) Trouvez le dixième terme.
+
+
+  

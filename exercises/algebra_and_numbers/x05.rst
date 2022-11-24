@@ -1,0 +1,14 @@
+Q 5.
+====
+
+Le premier terme d'une suite géométrique infinie est :math:`4`.
+La somme de la suite infinie est :math:`200`.
+
+A) Trouvez la raison.
+
+B) Trouvez la somme des 8 premiers termes.
+
+C) Trouves la plus petite valeur de :math:`n` pour laquelle :math:`S_n > 163`.
+
+
+  
