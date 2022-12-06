@@ -47,10 +47,10 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'Éxercises Calcul'
+master_doc = 'Éxercises Fonctions'
 
 # General information about the project.
-project = 'Éxercises Calcul'
+project = 'Éxercises Fonctions'
 copyright = 'Bernatchez, Annie'
 author = 'Bernatchez, Annie'
 
@@ -105,7 +105,7 @@ html_static_path = ['_static']
 master_doc = 'index'
 
 latex_documents = [
- ('index', 'ex_calcul.tex', u'Éxercises Calcul', u'Annie Bernatchez', 'manual'),
+ ('index', 'ex_fonctions.tex', u'Éxercises Fonctions', u'Annie Bernatchez', 'manual'),
 ]
 
 

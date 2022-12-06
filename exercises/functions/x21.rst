@@ -1,0 +1,20 @@
+Q 1.
+====
+ 
+replace me :math:`xx` representé ci-dessous.
+
+La figure n'est pas à l'échelle.
+
+.. figure:: images/diagramme_x1a.png
+   :scale: 100 %
+
+   ..
+
+A)
+
+   Trouvez :math:`xx`.
+
+B)
+
+   Trouvez :math:`xx`.
+   

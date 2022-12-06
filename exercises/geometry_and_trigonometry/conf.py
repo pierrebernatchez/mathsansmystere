@@ -105,7 +105,7 @@ html_static_path = ['_static']
 master_doc = 'index'
 
 latex_documents = [
- ('index', 'ex_geo_tri.tex', u'Éxercises Géométrie et Trigonométrie', u'Pierre Bernatchez', 'manual'),
+ ('index', 'ex_geo_tri.tex', u'Éxercises Géométrie et Trigonométrie', u'Annie Bernatchez', 'manual'),
 ]
 
 
