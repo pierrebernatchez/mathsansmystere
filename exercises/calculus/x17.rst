@@ -1,0 +1,22 @@
+Q 17.
+=====
+
+
+Soit :math:`f(x) = Cos(e^x)`, pour :math:`-2 \le x \le 2`.
+
+
+A)
+
+   Trouvez :math:`f^\prime(x)`.
+
+
+B)
+
+   Sur le système d'axes ci-dessous, esquissez la représentation graphique de :math:`f^\prime(x)`.
+
+.. figure:: images/grid_5_12.png
+   :scale: 60 %
+
+   ..
+
+

@@ -1,0 +1,23 @@
+Q 19.
+=====
+
+Soit :math:`f(x) = ax^3 + bx^2 + c`, ou :math:`a`, :math:`b` et :math:`c` sont des nombres reéls.
+La courbe de :math:`f` passe par le point :math:`( 2; 9 )`.
+
+A)
+
+   Montrez que :math:`8a + 4b +c = 9`.
+
+La courbe de :math:`f` a un minimum relatif en :math:`(1; 4)`.
+   
+   
+B)
+
+   Trouvez deux autres équations en termes de :math:`a` , :math:`b` et :math:`c`,
+   en donnant vos réponses sous une forme similaire à celle de la partie A.
+
+C)
+
+   Trouvez la valeur de :math:`a`, celle de :math:`b` et celle de :math:`c`.
+   
+

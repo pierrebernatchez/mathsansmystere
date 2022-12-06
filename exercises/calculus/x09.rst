@@ -1,0 +1,8 @@
+Q 9.
+====
+
+Soit :math:`f(x) = kx^4`. Le point :math:`P(1 ; k)` est sur la courbe représentant :math:`f`.
+En :math:`P`, la normale à la courbe est parallèle à :math:`y = -\frac{1}{8}x`.
+
+
+Trouvez la valeur de :math:`k`.
