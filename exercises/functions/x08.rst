@@ -1,20 +1,14 @@
-Q 1.
+Q 8.
 ====
- 
-replace me :math:`xx` representé ci-dessous.
 
-La figure n'est pas à l'échelle.
-
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
-
-   ..
+Soit :math:`f(x) = 3\ln\,x` et :math:`g(x) = \ln\,5x^3`.
 
 A)
 
-   Trouvez :math:`xx`.
+   Exprimez :math:`g(x)` sous la forme :math:`f(x)+\ln a` où :math:`a \in \mathbb{Z}^+`
 
 B)
 
-   Trouvez :math:`xx`.
+   La représentation graphidue de :math:`g` est une transformation celle de :math:`f`.
+   Donnez une description geometrique complete de cette transformation.
    

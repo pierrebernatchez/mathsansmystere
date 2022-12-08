@@ -1,20 +1,16 @@
-Q 1.
-====
+Q 19.
+=====
+
+
+Soit :math:`f(x) = sin(e^x)` pour :math:`0 \le x \le 1,5`.
+
+Le diagramme suivant montre la représentation graphique de :math:`f`.
  
-replace me :math:`xx` representé ci-dessous.
-
-La figure n'est pas à l'échelle.
-
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
+.. figure:: images/diagramme_x19.png
+   :scale: 60 %
 
    ..
 
-A)
+Trouvez l'abscisse à l'origine de la représentation graphique de :math:`f`.
 
-   Trouvez :math:`xx`.
 
-B)
-
-   Trouvez :math:`xx`.
-   

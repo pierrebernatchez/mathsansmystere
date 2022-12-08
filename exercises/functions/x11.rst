@@ -1,20 +1,19 @@
-Q 1.
-====
- 
-replace me :math:`xx` representé ci-dessous.
+Q 11.
+=====
 
-La figure n'est pas à l'échelle.
-
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
-
-   ..
+Soit :math:`f(x) = cos\,2x` et :math:`g(x) = 2x^2 - 1`.
 
 A)
 
-   Trouvez :math:`xx`.
+   Trouvez :math:`f\left(\frac{\pi}{2}\right)`
 
 B)
 
-   Trouvez :math:`xx`.
+   Trouvez :math:`(g \circ f)\left(\frac{\pi}{2}\right)`
+
+C)
+
+   Étant donné que :math:`(g \circ f)` peut s'écrire sous la forme :math:`cos(kx)`,
+   trouvez la valeur de :math:`k`, :math:`k \in \mathbb{Z}`.
+   
    

@@ -1,20 +1,7 @@
-Q 1.
+Q 5.
 ====
- 
-replace me :math:`xx` representé ci-dessous.
 
-La figure n'est pas à l'échelle.
+Considérez l'équation :math:`x^2 + (k-1)x + 1 = 0`, où :math:`k` est un nombre réel.
 
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
+Trouvez les valeurs de :math:`k` pour lesquelles l’équation a deux solutions réelles *égales*.
 
-   ..
-
-A)
-
-   Trouvez :math:`xx`.
-
-B)
-
-   Trouvez :math:`xx`.
-   

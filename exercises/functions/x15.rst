@@ -1,20 +1,22 @@
-Q 1.
-====
- 
-replace me :math:`xx` representé ci-dessous.
+Q 15.
+=====
 
-La figure n'est pas à l'échelle.
+On considère deux fonctions quadratiques différentes de la forme :math:`f(x) = 4x^2 - qx + 25`.
 
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
+La représentation graphique de chacune des fonctions a son sommet sur l'axe des abscisses.
 
-   ..
 
 A)
 
-   Trouvez :math:`xx`.
+   Trouvez les deux valeurs de :math:`q`.
 
 B)
 
-   Trouvez :math:`xx`.
+   Pour la plus grande valeur de :math:`q` résolvez :math:`f(x) = 0`.
+
    
+C)
+
+   Trouvez les coordonnées du point d'intersection de deux représentations graphiques.
+   
+

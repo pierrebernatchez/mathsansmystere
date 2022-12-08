@@ -1,20 +1,25 @@
-Q 1.
-====
+Q 24.
+=====
+
+On considère :math:`f(x) = 2 - x^2`, avec :math:`-2 \le x \le 2`
+et :math:`g(x)= sin\,e^x`, avec :math:`-2 \le x \le 2`.
  
-replace me :math:`xx` representé ci-dessous.
+La représentation graphique de :math:`f(x)` est donnée ci-dessous.
 
-La figure n'est pas à l'échelle.
-
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
+.. figure:: images/figure_x24.png
+   :scale: 40 %
 
    ..
 
 A)
 
-   Trouvez :math:`xx`.
+   Sur la figure ci-dessus, esquissez la représentation graphique de :math:`g`.
 
 B)
 
-   Trouvez :math:`xx`.
+   Resolvez :math:`f(x) = g(x)`.
+
+C)
+
+   Donnez lensemble des valeurs de :math:`x` telles que :math:`f(x) > g(x)`.
    

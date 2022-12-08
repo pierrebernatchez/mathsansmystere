@@ -1,20 +1,9 @@
 Q 2.
 ====
- 
-replace me :math:`xx` representé ci-dessous.
 
-La figure n'est pas à l'échelle.
+Soit :math:`f(x) = p\,x^2 + q\,x - 4\,p$ , où $p \ne 0`.
 
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
+Trouvez le nombre de racines de l'équation :math:`f(x) = 0`.
 
-   ..
+Justifiez votre réponse.
 
-A)
-
-   Trouvez :math:`xx`.
-
-B)
-
-   Trouvez :math:`xx`.
-   

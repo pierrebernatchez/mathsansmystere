@@ -1,20 +1,13 @@
 Q 3.
 ====
- 
-replace me :math:`xx` representé ci-dessous.
 
-La figure n'est pas à l'échelle.
-
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
-
-   ..
+Soit :math:`f(x) = 2\,x - 1` et :math:`g(x) = 3x^2 + 2`.
 
 A)
 
-   Trouvez :math:`xx`.
+   Trouvez :math:`f^{-1}(x)`.
 
 B)
 
-   Trouvez :math:`xx`.
+   Trouvez :math:`(f \circ g)(1)`.
    

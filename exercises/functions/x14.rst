@@ -1,20 +1,19 @@
-Q 1.
-====
- 
-replace me :math:`xx` representé ci-dessous.
+Q 14.
+=====
 
-La figure n'est pas à l'échelle.
 
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
+Soit :math:`f(x) = \sqrt{x + 4}`, :math:`x \ge - 4` et :math:`g(x) = x^2`, :math:`x \in \mathbb{R}`.
 
-   ..
 
 A)
 
-   Trouvez :math:`xx`.
+   Trouvez :math:`(g \circ f)(3)`.
 
 B)
 
-   Trouvez :math:`xx`.
-   
+   Trouvez :math:`f^{-1}(x)`.
+
+C)
+
+   Donnez le domaine de :math:`f^{-1}`.
+

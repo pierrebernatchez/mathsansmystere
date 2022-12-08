@@ -1,20 +1,33 @@
-Q 1.
+Q 4.
 ====
- 
-replace me :math:`xx` representé ci-dessous.
 
-La figure n'est pas à l'échelle.
+La fonction :math:`f(x)` pour :math:`-2 \le x \le 3` est representé ci-dessous.
 
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
+.. figure:: images/diagramme_x4a.png
+   :scale: 50 %
+
+   ..
+   
+La représentation graphique de :math:`f` est transformée pour obtenir celle de :math:`g` représentée ci-dessous.
+
+.. figure:: images/diagramme_x4c.png
+   :scale: 50 %
 
    ..
 
+   
 A)
 
-   Trouvez :math:`xx`.
+   Esquissez la representation graphique :math:`f(-x)` sur le système d'axe ci-dessous.
+
+.. figure:: images/diagramme_x4b.png
+   :scale: 50 %
+
+   ..
 
 B)
 
-   Trouvez :math:`xx`.
+   La fonction :math:`g`  peut s'écrire sous la forme :math:`g(x) = a\,f(x + b)`.
+   
+   Donnez la valeur de :math:`a` et celle de :math:`b`.
    

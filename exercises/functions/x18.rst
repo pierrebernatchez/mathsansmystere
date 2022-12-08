@@ -1,20 +1,34 @@
-Q 1.
-====
- 
-replace me :math:`xx` representé ci-dessous.
+Q 18.
+=====
 
-La figure n'est pas à l'échelle.
+Soit la fonction :math:`y = a\,sin\,2x + c`, :math:`-180 \le x \le 180`;
+:math:`x` est mesuré en degré.
 
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
+La courbe de la fonction est représentée ci-dessous.
+
+.. figure:: images/figure_x18a.png
+   :scale: 60 %
 
    ..
 
+
 A)
 
-   Trouvez :math:`xx`.
+   Donnez:
+
+   i)
+
+      la période de cette fonction;
+
+   ii)
+
+      l'amplitude de cette fonction.
 
 B)
 
-   Trouvez :math:`xx`.
+   Déterminez les valeurs de :math:`a` et de :math:`c`.
+
+C)
+
+   Calculez l'abscisse :math:`x` de la première intersection de la courbe avec la partie negative de l'axe des abscisses.
    

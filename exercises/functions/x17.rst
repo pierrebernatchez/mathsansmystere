@@ -1,20 +1,27 @@
-Q 1.
-====
- 
-replace me :math:`xx` representé ci-dessous.
+Q 17.
+=====
 
-La figure n'est pas à l'échelle.
+La représentation graphique dune fonction :math:`f` est tracée sur la figure ci-dessous.
 
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
+.. figure:: images/figure_x17.png
+   :scale: 60 %
 
    ..
 
+
+Le point :math:`A(-1; 1)` est sur la représentation graphique et :math:`y=-1` est un asymptote horizontale.
+   
 A)
 
-   Trouvez :math:`xx`.
+   Soit :math:`g(x) = f(x-1) + 2`.
+   Sur la figure esquissez la représentation graphique de :math:`g`.
 
 B)
 
-   Trouvez :math:`xx`.
+   Donnez l'équation de l'asymptote de :math:`g`.
+
+C)
+
+   Soit :math:`A^\prime` le point sur la représentation graphique de :math:`g` correspondant au point :math:`A`.
+   Donnez les coordonnées de :math:`A^\prime`.
    

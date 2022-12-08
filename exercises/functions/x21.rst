@@ -1,20 +1,22 @@
-Q 1.
-====
+Q 21.
+=====
+
+Soit :math:`f(x) = \frac{x - 5}{cx + 6}` pour :math:`x \ne  -\frac{6}{c}, c \ne 0`.
  
-replace me :math:`xx` representé ci-dessous.
-
-La figure n'est pas à l'échelle.
-
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
-
-   ..
-
 A)
 
-   Trouvez :math:`xx`.
+   La droite :math:`x = 3` est une asymptote verticale de la représentation graphique de :math:`f`.
+   
+   Trouvez la valeur de :math:`c`.
 
 B)
 
-   Trouvez :math:`xx`.
+   Écrivez l'équation de l'asymptote horizontale de la représentation graphique de :math:`f`.
+
+C)
+
+   La droite :math:`y=k`, où :math:`k \in \mathbb{R}`,
+   coupe la représentation graphique de :math:`\lvert f(x) \rvert` en exactement un point.
+
+   Trouvez les valeurs possibles de :math:`k`.
    

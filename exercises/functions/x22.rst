@@ -1,20 +1,14 @@
-Q 1.
-====
- 
-replace me :math:`xx` representé ci-dessous.
+Q 22.
+=====
 
-La figure n'est pas à l'échelle.
-
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
-
-   ..
+Soit :math:`f(x)=3x`, :math:`g(x)=2x - 5` et :math:`h(x) = (f \circ g)(x)`.
 
 A)
 
-   Trouvez :math:`xx`.
+   Trouvez :math:`fh(x)`.
 
 B)
 
-   Trouvez :math:`xx`.
+   Trouvez :math:`fh^{-1}(x)`.
+   
    

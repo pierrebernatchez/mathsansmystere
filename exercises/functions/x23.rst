@@ -1,20 +1,19 @@
-Q 1.
-====
- 
-replace me :math:`xx` representé ci-dessous.
+Q 23.
+=====
 
-La figure n'est pas à l'échelle.
-
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
-
-   ..
+Soit :math:`g(x) = \frac{1}{2}x\,sin\,x`, avec :math:`0 \le x \le 4`.
 
 A)
 
-   Trouvez :math:`xx`.
+   Esquissez la représentation graphique de :math:`g` sur le repère ci-dessous.
+
+.. figure:: images/repere_x23a.png
+   :scale: 80 %
+
+   ..
+   
 
 B)
 
-   Trouvez :math:`xx`.
+   À partir de là, trouvez la valeur de :math:`x` pour laquelle :math:`g(x) = -1`.
    

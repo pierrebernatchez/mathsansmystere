@@ -1,20 +1,24 @@
-Q 1.
-====
+Q 16.
+=====
+
+
+Soit :math:`f(x) = \ln(x +2), x > -2` et :math:`g(x) = e^{x-4}`, :math:`x > 0`.
  
-replace me :math:`xx` representé ci-dessous.
-
-La figure n'est pas à l'échelle.
-
-.. figure:: images/diagramme_x1a.png
-   :scale: 100 %
-
-   ..
-
 A)
 
-   Trouvez :math:`xx`.
+   Donnez l'intersection de la représentation graphique de :math:`f` avec l'axe des abscisses.
 
 B)
 
-   Trouvez :math:`xx`.
-   
+   i)
+
+      Donnez :math:`f(-1.999)`.
+
+   ii)
+
+      Trouvez l'image de :math:`f`.
+
+C)
+
+   Trouvez les coordonnées du poit d'intersection des représentantes graphiques de :math:`f` et :math:`g`.
+
