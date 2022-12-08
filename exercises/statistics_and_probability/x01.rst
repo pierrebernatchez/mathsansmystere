@@ -1,0 +1,30 @@
+Q 1.
+====
+
+Un ensemble de données comprend :math:`n` valeurs.
+
+La somme des valeurs est de :math:`800` et la moyenne est de :math:`20`.
+
+A)
+
+   Trouvez :math:`n`
+
+
+L’écart type de cet ensemble de données est de :math:`3`.
+
+Chaque valeur de l’ensemble est multipliée par :math:`10`.
+
+
+B)
+
+   i)
+
+      Écrivez la valeur de la nouvelle moyenne.
+
+   ii)
+
+      Trouvez la valeur de la nouvelle variance.
+
+
+   
+

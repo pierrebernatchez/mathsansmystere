@@ -1,0 +1,25 @@
+Q 1.
+====
+
+Domains:
+
+:math:`\mathbb{R}` REAL
+      
+:math:`\mathbb{Z}` INTEGER
+      
+:math:`\mathbb{N}` NATURAL
+      
+:math:`\mathbb{Q}` RATIONAL
+      
+:math:`\mathbb{P}` IRRATIONAL
+
+Fubar :math:`f(x)` pour :math:`-4 \le x \le 2`.
+
+.. figure:: images/q1_diagram.png
+   :scale: 40 %
+
+   ..
+
+
+   
+

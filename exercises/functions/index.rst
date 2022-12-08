@@ -1,34 +1,27 @@
-Éxercises Fonctions
-===================
+#########
+Fonctions
+#########
+
+Éxercices 2022/12/08
+====================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Questions Disponibles:
+   :caption: Éxercices 2022/12/08:
 
+   
    x01
    x02
    x03
+
+Éxercices 2022/12/09
+====================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Éxercices 2022/12/09:
+
+   x03
    x04
    x05
-   x06
-   x07
-   x08
-   x09
-   x10    
-   x11
-   x12
-   x13
-   x14
-   x15
-   x16
-   x17
-   x18
-   x19
-   x20
-   x21
-   x22
-   x23
-   x24
-   x25
-  
    
