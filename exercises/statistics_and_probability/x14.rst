@@ -1,13 +1,18 @@
-Q 1.
-====
- 
-Fubar :math:`f(x)` pour :math:`-4 \le x \le 2`.
+Q 14.
+=====
 
-.. figure:: images/q1_diagram.png
-   :scale: 40 %
+Les tailles dans un groupe d’enfants de sept ans sont normalement distribuées avec une moyenne de :math:`117\,cm` et un écart-type de :math:`5\,cm`.
+Un enfant est choisi au hasard dans ce groupe.
 
-   ..
 
+A)
+
+   Trouvez la probabilité que cet enfant soit plus grand que :math:`122,5\,cm`
+
+B)
+
+   La probabilité que cet enfant soit plus petit que :math:`k\,cm` est :math:`0,65`.
+   Trouvez la valeur de :math:`k`.
 
    
 

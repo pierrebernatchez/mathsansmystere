@@ -1,13 +1,36 @@
-Q 1.
+Q 6.
 ====
- 
-Fubar :math:`f(x)` pour :math:`-4 \le x \le 2`.
 
-.. figure:: images/q1_diagram.png
-   :scale: 40 %
+Une scientifique étudie :math:`100` poissons femelles et :math:`100` poissons mâles.
+Elle mesure leur longueur (arrondie au centimètre le plus proche).
+Les résultats sont donnés dans les diagrammes à boîtes et moustache suivants.
+
+Poissons femelles
+
+.. figure:: images/poissons_femelles.png
+   :scale: 70 %
 
    ..
 
+Poissons mâles
+
+.. figure:: images/poissons_males.png
+   :scale: 70 %
+
+   ..
+
+A)
+
+   Trouvez l’étendue des longueurs de tous les :math:`200` poissons.
 
    
+Quatre courbes de fréquence cumulée sont représentées ci-dessous.
+   
+.. figure:: images/courbe_1_a_4.png
+   :scale: 70 %
 
+   ..
+
+B)
+
+   Quelle courbe représente le mieux les longueurs des poissons femelles?

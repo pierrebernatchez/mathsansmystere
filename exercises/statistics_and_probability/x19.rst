@@ -1,12 +1,18 @@
-Q 1.
-====
- 
-Fubar :math:`f(x)` pour :math:`-4 \le x \le 2`.
+Q 19.
+=====
 
-.. figure:: images/q1_diagram.png
-   :scale: 40 %
+Jan joue un jeu en jetant deux dés équilibrés à six faces.
+Elle gagne un lot si la somme des dés est cinq.
 
-   ..
+A)
+
+   Jan jette les deux dés une fois.
+   Trouvez la probabilité qu’elle gagne un lot.
+
+B)
+
+   Jan jette les deux dés huit fois.
+   Trouvez la probabilité qu’elle gagne trois lots.
 
 
    

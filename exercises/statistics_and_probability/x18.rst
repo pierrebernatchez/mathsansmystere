@@ -1,13 +1,39 @@
-Q 1.
-====
- 
-Fubar :math:`f(x)` pour :math:`-4 \le x \le 2`.
+Q 18.
+=====
 
-.. figure:: images/q1_diagram.png
-   :scale: 40 %
+Le tableau ci-dessous donne les notes d’examen de :math:`120` élèves.
+
+.. figure:: images/histogram_etudiants_notes.png
+   :scale: 80 %
 
    ..
 
+A)
+
+   Trouvez la valeur de
+
+   i)
+
+      :math:`p`.
+
+      
+   ii)
+
+      :math:`q`.
+
+
+
+B)
+
+   Trouvez la note moyenne.
+
+C)
+
+   Donnez l'écart-type.
+
+
+
+   
 
    
 

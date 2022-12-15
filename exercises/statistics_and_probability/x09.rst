@@ -1,13 +1,25 @@
-Q 1.
+Q 9.
 ====
  
-Fubar :math:`f(x)` pour :math:`-4 \le x \le 2`.
+Les couleurs des yeux de 97 élèves sont données dans le tableau suivant.
 
-.. figure:: images/q1_diagram.png
-   :scale: 40 %
+.. figure:: images/tableau_yeux.png
+   :scale: 70 %
 
    ..
 
 
-   
+Un elève est choisi au hasard.
 
+A)
+
+   Donnez la probabilité que cet élève soit un garçon.
+
+
+B)
+
+   Donnez la probabilité que cet élève ait les yeux verts, sachant qu’il s’agit d’une fille.
+
+C)
+
+   Trouvez la probabilité que cet élève ait les yeux verts ou soit un garçon.

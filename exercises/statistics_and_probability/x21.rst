@@ -1,25 +1,36 @@
-Q 1.
-====
+Q 21.
+=====
 
-Domains:
+Deux restaurants, Center et New, servent des sandwichs au poisson et des salades.
 
-:math:`\mathbb{R}` REAL
-      
-:math:`\mathbb{Z}` INTEGER
-      
-:math:`\mathbb{N}` NATURAL
-      
-:math:`\mathbb{Q}` RATIONAL
-      
-:math:`\mathbb{P}` IRRATIONAL
+Soit :math:`F` l'événement « un client choisit un sandwich au poisson ».
 
-Fubar :math:`f(x)` pour :math:`-4 \le x \le 2`.
+Soit :math:`S` l'événement « un client choisit une salade ».
 
-.. figure:: images/q1_diagram.png
-   :scale: 40 %
+Soit :math:`N` l'événement « un client ne choisit ni un sandwich au poisson ni une salade ».
 
-   ..
+Dans le restaurant Center, on a :math:`P(F) = 0.31; P(S) = 0,62 ; P(N) = 0,14`.
 
+A)
+
+   Montrez que :math:`P(F \cap S) = 0,07`.
+
+B)
+
+   Étant donné qu’un client choisit une salade,
+   trouvez la probabilité que ce client choisisse aussi un sandwich au poisson.
 
    
+C)
+
+   Les événements :math:`F` et :math:`S` sont-ils indépendants? Justifiez votre réponse.
+
+Au restaurant New, :math:`P(N) =00,.1144`.
+Deux fois plus de clients choisissent une salade qu’un sandwich au poisson.
+Choisir un sandwich au poisson est indépendant de choisir une salade.
+
+D)
+
+   Trouvez la probabilité de choisir un sandwich au poisson.
+
 

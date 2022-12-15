@@ -1,6 +1,7 @@
 Q 2.
 ====
 
+
 Pablo se rend au travail en voiture.
 
 La probabilité qu’il quitte la maison avant 07 h 00 est de :math:`\frac{3}{4}`.
