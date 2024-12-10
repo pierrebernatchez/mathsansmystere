@@ -5,7 +5,7 @@ PELICANOPTS=
 BASEDIR=$(CURDIR)
 
 INPUTDIR=$(BASEDIR)/content
-COMPILE_RST=$(BASEDIR)/../bin/compile_rst
+COMPILE_RST=$(BASEDIR)/bin/compile_rst
 LINKIMAGES=$(BASEDIR)/bin/msmlinks
 
 OUTPUTDIR=$(BASEDIR)/output
@@ -60,7 +60,7 @@ help:
 html:
 
 	$(LINKIMAGES)
-	#  $(COMPILE_RST) -p '*.pdf' -s sitepdfs -o pdfs_list -i
+	$(COMPILE_RST) -p '*.pdf' -s sitepdfs -o pdfs_list -i
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
@@ -70,7 +70,7 @@ clean:
 regenerate:
 
 	$(LINKIMAGES)
-	# $(COMPILE_RST) -p '*.pdf' -s sitepdfs -o pdfs_list -i
+	$(COMPILE_RST) -p '*.pdf' -s sitepdfs -o pdfs_list -i
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
