@@ -21,7 +21,7 @@ case "${LINKDIRNAME}" in
 	ln -f -s ${BASEDIR}/generic/pdf_docs/patchhowto.pdf	
 	ln -f -s ${BASEDIR}/generic/pdf_docs/virtualenv.pdf
 	ln -f -s ${BASEDIR}/generic/pdf_docs/privatepypi.pdf
-	# ln -f -s ${PROJECTPATH}/pdf_docs/foo.pdf
+	ln -f -s ${PROJECTPATH}/pdf_docs/README.pdf
 	;;
     *)
 	echo -e ${COLRED} 'NO NOT LINKING PDFS IN ' ${COLOFF} ${LINKDIR} 
