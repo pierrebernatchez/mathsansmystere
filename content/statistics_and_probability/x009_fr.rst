@@ -1,0 +1,33 @@
+Statistiques et probabilités Q 009.
+===================================
+
+:lang: fr
+:date: 2024-12-10 16:04:58+00:00
+:tags: Statistiques et Probabilités
+:slug: sp009
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+ 
+.. |tableau_yeux| image:: images/tableau_yeux.png
+   :scale: 70%
+   :alt: tableau_yeux
+      
+Les couleurs des yeux de 97 élèves sont données dans le tableau suivant.
+
+|tableau_yeux|
+
+Un elève est choisi au hasard.
+
+A)
+
+   Donnez la probabilité que cet élève soit un garçon.
+
+
+B)
+
+   Donnez la probabilité que cet élève ait les yeux verts, sachant qu’il s’agit d’une fille.
+
+C)
+
+   Trouvez la probabilité que cet élève ait les yeux verts ou soit un garçon.

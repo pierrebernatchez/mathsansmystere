@@ -1,0 +1,21 @@
+Fonctions Q 003.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:52+00:00
+:tags: Fonctions
+:slug: fun003
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+Soit :math:`f(x) = 2\,x - 1` et :math:`g(x) = 3x^2 + 2`.
+
+A)
+
+   Trouvez :math:`f^{-1}(x)`.
+
+B)
+
+   Trouvez :math:`(f \circ g)(1)`.
+   

@@ -1,0 +1,38 @@
+Calcul Q 004.
+=============
+
+:lang: fr
+:date: 2024-12-09 14:28:04+00:00
+:tags: Calcul
+:slug: cal004
+:category: Calcul
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |temp_cos_wave| image:: images/temp_cos_wave.png
+   :scale: 60%
+   :alt: temp_cos_wave
+      
+La figure suivante donne la représentation graphique de :math:`f(x) = a\,Cos\,bx`,
+pour :math:`0 \le x \le 4`.
+
+La figure nest pas à l'échelle.
+
+|temp_cos_wave|
+
+Il y a un point minimum en :math:`P( 2, -3 )` et un point maximum en :math:`Q( 4, 3 )`.   
+
+A)
+
+   i)  Donnez la valeur de :math:`a`.
+
+   ii) Trouvez la valeur de :math:`b`.
+
+
+B)
+
+   Donnez la pente de la courbe en :math:`P`.
+
+C)   
+
+   Donnez l’équation de la normale à la courbe en :math:`P`.

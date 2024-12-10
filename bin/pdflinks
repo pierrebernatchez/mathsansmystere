@@ -1,0 +1,32 @@
+#!/bin/bash
+# bash trick to obtain a clean absolute path to this script.
+pushd `dirname $0` >/dev/null
+SCRIPTPATH=`pwd -P`
+popd >/dev/null
+LINKDIR=`pwd -P`
+LINKDIRNAME=$(basename ${LINKDIR})
+MYPROGNAME=$(basename $0)
+PROJECTPATH=$(dirname ${SCRIPTPATH})
+BASEDIR=$(dirname ${PROJECTPATH})
+COLRED="\e[31m"
+COLOFF="\e[0m"
+COLGREEN="\e[32m"
+echo LINKDIR=${PROJECTPATH}
+echo LINKDIRNAME=${LINKDIRNAME} \# must match "sitepdfs"
+echo PROJECTPATH=${PROJECTPATH}
+echo BASEDIR=${BASEDIR}
+case "${LINKDIRNAME}" in
+    *sitepdfs*)
+	echo -e ${COLGREEN} 'YES LINKING PDFS IN ' ${COLOFF} ${LINKDIR} 
+	ln -f -s ${BASEDIR}/generic/pdf_docs/patchhowto.pdf	
+	ln -f -s ${BASEDIR}/generic/pdf_docs/virtualenv.pdf
+	ln -f -s ${BASEDIR}/generic/pdf_docs/privatepypi.pdf
+	# ln -f -s ${PROJECTPATH}/pdf_docs/foo.pdf
+	;;
+    *)
+	echo -e ${COLRED} 'NO NOT LINKING PDFS IN ' ${COLOFF} ${LINKDIR} 
+	;;
+esac
+
+
+

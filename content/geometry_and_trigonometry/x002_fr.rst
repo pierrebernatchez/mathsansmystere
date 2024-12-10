@@ -1,0 +1,31 @@
+Géométrie et Trigonométrie Q 002.
+=================================
+
+:lang: fr
+:date: 2024-12-10 00:10:54+00:00
+:tags: Géométrie et Trigonométrie
+:slug: gt002
+:category: Géométrie et Trigonométrie
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |figure_x2| image:: images/figure_x2.png
+   :scale: 40%
+   :alt: figure_x2
+
+La figure nest pas à l'échelle.
+
+|figure_x2|
+	   
+Le diagramme montre le quadrilatère :math:`ABCD`.
+
+:math:`AB = 11cm`, :math:`BC = 6cm`, :math:`\angle\,BAD = 59^\circ`, :math:`\angle\,ADB = 100^\circ` et :math:`\angle\,CBD = 82^\circ`
+
+      
+Trouvez DB.
+
+Trouvez DC.
+
+
+	   
+

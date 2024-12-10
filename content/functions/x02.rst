@@ -1,0 +1,17 @@
+Fonctions Q 002.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:53+00:00
+:tags: Fonctions
+:slug: fun002
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+Soit :math:`f(x) = p\,x^2 + q\,x - 4\,p$ , où $p \ne 0`.
+
+Trouvez le nombre de racines de l'équation :math:`f(x) = 0`.
+
+Justifiez votre réponse.
+

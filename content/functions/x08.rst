@@ -1,0 +1,22 @@
+Fonctions Q 008.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:47+00:00
+:tags: Fonctions
+:slug: fun008
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+Soit :math:`f(x) = 3\ln\,x` et :math:`g(x) = \ln\,5x^3`.
+
+A)
+
+   Exprimez :math:`g(x)` sous la forme :math:`f(x)+\ln a` où :math:`a \in \mathbb{Z}^+`
+
+B)
+
+   La représentation graphidue de :math:`g` est une transformation celle de :math:`f`.
+   Donnez une description geometrique complete de cette transformation.
+   

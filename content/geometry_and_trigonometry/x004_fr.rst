@@ -1,0 +1,37 @@
+Géométrie et Trigonométrie Q 004.
+=================================
+
+:lang: fr
+:date: 2024-12-10 00:05:50+00:00
+:tags: Géométrie et Trigonométrie
+:slug: gt004
+:category: Géométrie et Trigonométrie
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |figure_x4|  image:: images/figure_x4.png
+   :scale: 60%
+   :alt: figure_x4
+      
+La figure nest pas à l'échelle.
+
+|figure_x4|
+   
+La figure représente un pentagone :math:`ABCDE`.
+
+Tel que: :math:`AB = 9,2\,cm,  BC = 3,2\,cm, BD = 7,1\,cm, \angle\,AED = 110^\circ, \angle\,ADE = 52^\circ,` et :math:`\angle\,ABD = 60^\circ`
+	   
+
+A) Trouvez :math:`AD`.
+
+B) Trouvez :math:`DE`.
+
+C) L'aire du triangle :math:`BCD` est :math:`5,68\,cm^2`. Trouvez :math:`\angle\,DBC`.
+
+D) Trouvez :math:`AC`.
+   
+
+   
+
+	   
+

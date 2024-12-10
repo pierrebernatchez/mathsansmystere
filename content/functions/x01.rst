@@ -1,0 +1,40 @@
+Fonctions Q 001.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:54+00:00
+:tags: Fonctions
+:slug: fun001
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+ 
+.. |diagramme_x1a| image:: images/diagramme_x1a.png
+   :scale: 40%
+   :alt: diagramme_x1a
+
+.. |diagramme_x1b| image:: images/diagramme_x1b.png
+   :scale: 40%
+   :alt: diagramme_x1b
+
+Le diagramme suivant est la représentation graphique de la fonction :math:`f(x)` pour :math:`-4 \le x \le 2`.
+
+Diagramme :math:`A`
+
+|diagramme_x1a|
+
+   
+Sur le système d'axes du diagramme :math:`A` esquissez la représentation graphique de :math:`f(-x)`
+   
+Une autre fonction, :math:`g`, peut s’écrire sous la forme :math:`g(x) = a \times f(x + b)`.
+
+Le diagramme suivant montre la représentation graphique de :math:`g`.
+
+Diagramme :math:`B`
+
+|diagramme_x1b|
+   
+
+Selon le diagramme :math:`B`, écrivez la valeur de :math:`a` et de :math:`b` de la fonction :math:`g`
+   
+

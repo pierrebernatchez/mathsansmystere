@@ -1,0 +1,37 @@
+#!/bin/bash
+#
+# Local Image links in our .rst documents point content/images for there image files.
+# This script makes hard links there to the directory where they are preserved by github.
+# This allows us to ignore the (possibly multiple) images directories as far as github
+# is concerned, and yet allways have them when where they are needed.
+#
+# This script is intended to make all the hard links we need in that directory.
+#
+pushd `dirname $0` >/dev/null
+SCRIPTPATH=`pwd -P`
+popd >/dev/null
+MYPROGNAME=$(basename $0)
+PROJECTDIR=$(dirname ${SCRIPTPATH})
+CONTENTDIR=${PROJECTDIR}/content
+IMAGESDIR=${CONTENTDIR}/images
+SOURCEIMAGESDIR=${PROJECTDIR}/project-images
+# Coloring sequenses
+COLRED="\e[31m"
+COLOFF="\e[0m"
+COLGREEN="\e[32m"
+#
+# ASSUMES This script is located at directory PROJECTDIR/bin/ e.g. ${HOME}/allrepos/math_sans_mystere/bin/
+# We double check that there is a content directiry in PROJECTDIR as a precaution
+#
+if [[ -d ${CONTENTDIR} ]] ; then
+    mkdir -p ${IMAGESDIR}
+    pushd ${IMAGESDIR} >/dev/null
+    echo -e ${COLGREEN} ${MYPROGNAME}: hardlinking into directory ${COLOFF}: $(pwd -P)
+    for adirpath in ${SOURCEIMAGESDIR}/* ; do
+	echo -e ${COLGREEN} ${MYPROGNAME}: hardlinking from directory ${COLOFF}: ${adirpath}
+	ln -f ${adirpath}/* ./
+    done
+    popd >/dev/null
+else 
+    echo -e ${COLRED} ${MYPROGNAME}: ABORT ${COLOFF} No directory: "${CONTENTDIR}"
+fi

@@ -1,0 +1,26 @@
+Fonctions Q 014.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:39+00:00
+:tags: Fonctions
+:slug: fun014
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+Soit :math:`f(x) = \sqrt{x + 4}`, :math:`x \ge - 4` et :math:`g(x) = x^2`, :math:`x \in \mathbb{R}`.
+
+
+A)
+
+   Trouvez :math:`(g \circ f)(3)`.
+
+B)
+
+   Trouvez :math:`f^{-1}(x)`.
+
+C)
+
+   Donnez le domaine de :math:`f^{-1}`.
+

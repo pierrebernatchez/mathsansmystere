@@ -1,0 +1,41 @@
+Statistiques et probabilités Q 011.
+===================================
+
+:lang: fr
+:date: 2024-12-10 15:38:27+00:00
+:tags: Statistiques et Probabilités
+:slug: sp011
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |boite_a_moustache_ensemble| image:: images/boite_a_moustache_ensemble.png
+   :scale: 80%
+   :alt: boite_a_moustache_ensemble
+
+Un ensemble de données est: :math:`\left[ 18, 18, 19, 19, 20, 22, 22, 23, 27, 28, 28, 31, 34, 34, 36 \right]`
+
+Le diagramme à boîtes et moustache de ces données est représenté ci-dessous.
+ 
+|boite_a_moustache_ensemble|
+
+A)
+
+   Donnez les valeurs:
+
+   :math:`A`
+	 
+   :math:`B`
+	 
+   :math:`C`
+	 
+   :math:`D`
+	 
+   :math:`E`
+	 
+B)
+
+   Trouvez l’intervalle interquartile.
+
+   
+

@@ -1,0 +1,31 @@
+Calcul Q 002.
+=============
+
+:lang: fr
+:date: 2024-12-09 14:43:02+00:00
+:tags: Calcul
+:slug: cal002
+:category: Calcul
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |cylindre| image:: images/cylindre.png
+   :scale: 50%
+   :alt: cylindre
+
+Une boîte en métal, cylindrique et fermée, de rayon égal à :math:`r` centimètres et de hauteur égale à :math:`h` centimètres possède un volume de :math:`20\pi\, cm^3`.
+
+La figure nest pas à l'échelle.
+
+|cylindre|
+
+A) Exprimez :math:`h` en fonction de :math:`r`.
+
+Le métal pour la base et le couvercle de la boîte coûte 10 cents le :math:`cm^2` et le métal pour le côté incurvé coûte :math:`8` cents le :math:`cm^2`.
+
+Le coût total du métal, en cents, est de :math:`C`.
+
+B) Montrez que :math:`C\,=\,20\pi{}r^2 + \frac{320\pi}{r}`
+
+C) Sachant qu’il existe une valeur minimale pour :math:`C`, trouvez cette valeur minimale en fonction de :math:`\pi`.
+   

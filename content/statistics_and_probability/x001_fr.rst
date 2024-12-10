@@ -1,0 +1,38 @@
+Statistiques et probabilités Q 001.
+===================================
+
+:lang: fr
+:date: 2024-12-10 17:45:35+00:00
+:tags: Statistiques et Probabilités
+:slug: sp001
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+Un ensemble de données comprend :math:`n` valeurs.
+
+La somme des valeurs est de :math:`800` et la moyenne est de :math:`20`.
+
+A)
+
+   Trouvez :math:`n`
+
+
+L’écart type de cet ensemble de données est de :math:`3`.
+
+Chaque valeur de l’ensemble est multipliée par :math:`10`.
+
+
+B)
+
+   i)
+
+      Écrivez la valeur de la nouvelle moyenne.
+
+   ii)
+
+      Trouvez la valeur de la nouvelle variance.
+
+
+   
+

@@ -1,0 +1,45 @@
+Statistiques et probabilités Q 002.
+===================================
+
+:lang: fr
+:date: 2024-12-10 17:42:32+00:00
+:tags: Statistiques et Probabilités
+:slug: sp002
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |q1_diagram| image:: images/q1_diagram.png
+   :scale: 80 %
+   :alt: q1_diagram
+      
+Pablo se rend au travail en voiture.
+
+La probabilité qu’il quitte la maison avant 07 h 00 est de :math:`\frac{3}{4}`.
+
+S'il quitte la maison avant 07 h 00, la probabilité qu’il soit en retard au travail est de :math:`\frac{1}{8}`.
+
+S'il quitte la maison à 07 h 00 ou après, la probabilité qu’il soit en retard au travail est de :math:`\frac{5}{8}`.
+
+A)
+
+   Recopiez et complétez le diagramme en arbre suivant.
+   
+|q1_diagram|
+
+
+B)
+
+   Trouvez la probabilité que Pablo quitte la maison avant 07 h 00 et qu'il soit en retard.
+
+C)
+
+   Trouvez la probabilité que Pablo soit en retard au travail.
+
+D)
+
+   Sachant que Pablo est en retard au travail,
+   trouvez la probabilité qu’il ait quitté la maison avant 07 h 00.
+
+   
+

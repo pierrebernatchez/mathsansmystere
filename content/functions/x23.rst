@@ -1,0 +1,27 @@
+Fonctions Q 023.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:27+00:00
+:tags: Fonctions
+:slug: fun023
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |repere_x23a| image:: images/repere_x23a.png
+   :scale: 80%
+   :alt: repere_x23a
+   
+Soit :math:`g(x) = \frac{1}{2}x\,sin\,x`, avec :math:`0 \le x \le 4`.
+
+A)
+
+   Esquissez la représentation graphique de :math:`g` sur le repère ci-dessous.
+
+|repere_x23a|
+
+B)
+
+   À partir de là, trouvez la valeur de :math:`x` pour laquelle :math:`g(x) = -1`.
+   

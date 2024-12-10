@@ -1,0 +1,44 @@
+Fonctions Q 020.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:31+00:00
+:tags: Fonctions
+:slug: fun020
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |figure_x20| image:: images/figure_x20.png
+   :scale: 60 %
+   :alt: figure_x20
+
+Dans un parc d'attractions, une grande roue dont le diamètre est de :math:`111` mètres tourne à une vitesse constante.
+
+Le bas de la roue est :math:`k` mètres au-dessus du sol.
+
+Un siège part du bas de la roue.
+
+La figure n'est pas à l'échelle.
+
+|figure_x20|
+
+La roue complète un tour en 16 minutes.
+
+Après :math:`t` minutes, la hauteur du siège au-dessus du sol est donnée par
+:math:`h(t) = 61,5 + a\,cos\left(\frac{\pi}{2}t\right)`, pour :math:`0 \le t \le 32`.
+
+A)
+
+   Après :math:`8` minutes, le siège est :math:`117` m au-dessus du sol.
+   Trouvez :math:`k`.
+
+B)
+
+   Trouvez la valeur de :math:`a`.
+
+C)
+
+   Trouvez quand le siège est :math:`30` m au-dessus du sol pour la troisième fois.
+
+   

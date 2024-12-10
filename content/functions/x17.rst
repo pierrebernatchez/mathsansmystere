@@ -1,0 +1,35 @@
+Fonctions Q 017.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:35+00:00
+:tags: Fonctions
+:slug: fun017
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+	  
+.. |figure_x17| image:: images/figure_x17.png
+   :scale: 60%
+   :alt: figure_x17
+      
+La représentation graphique d\'une fonction :math:`f` est tracée sur la figure ci-dessous.
+
+|figure_x17|
+
+Le point :math:`A(-1; 1)` est sur la représentation graphique et :math:`y=-1` est un asymptote horizontale.
+   
+A)
+
+   Soit :math:`g(x) = f(x-1) + 2`.
+   Sur la figure esquissez la représentation graphique de :math:`g`.
+
+B)
+
+   Donnez l'équation de l'asymptote de :math:`g`.
+
+C)
+
+   Soit :math:`A^\prime` le point sur la représentation graphique de :math:`g` correspondant au point :math:`A`.
+   Donnez les coordonnées de :math:`A^\prime`.
+   

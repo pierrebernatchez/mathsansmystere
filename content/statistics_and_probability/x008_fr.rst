@@ -1,0 +1,71 @@
+Statistiques et probabilités Q 008.
+===================================
+
+:lang: fr
+:date: 2024-12-10 16:13:08+00:00
+:tags: Statistiques et Probabilités
+:slug: sp008
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |arbre_e_f| image:: images/arbre_e_f.png
+   :scale: 100%
+   :alt: arbre_e_f
+
+.. |tableau_cout| image:: images/tableau_cout.png
+   :scale: 100%
+   :alt: tableau_cout
+
+José va à l’école en bus. Chaque jour, la probabilité que José rate son bus est de :math:`\frac{1}{3}`.
+
+S’il rate son bus, la probabilité qu’il soit en retard à l’école est de :math:`\frac{7}{8}`.
+
+S’il ne rate pas son bus, la probabilité qu’il soit en retard est de :math:`\frac{3}{8}`.
+
+Soit :math:`E` l’événement « il rate son bus » et :math:`F` l’événement « il est en retard pour l’école ».
+
+Les informations ci-dessus sont représentées dans le diagramme en arbre suivant.
+
+|arbre_e_f|
+
+A)
+   
+   Trouvez
+
+   i)
+
+      :math:`P(E \cap F)`
+
+   ii)
+
+      :math:`P(F)`
+
+B)
+
+   Trouvez la probabilité que
+
+   i)
+
+      José rate son bus et ne soit pas en retard à l’école ;
+
+   ii)
+
+      José ait raté son bus, sachant qu’il est en retard à l’école.
+
+
+Le coût pour chaque jour où José prend le bus est 3 euros.
+José va à l’école lundi et mardi.
+
+
+C)
+
+   Recopiez et complétez ce tableau de la distribution de probabilités.
+   
+|tableau_cout|
+
+D)
+
+   Trouvez l’espérance du coût sur les deux jours pour José.
+
+

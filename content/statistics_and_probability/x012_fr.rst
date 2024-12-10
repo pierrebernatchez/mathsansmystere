@@ -1,0 +1,36 @@
+Statistiques et probabilités Q 012.
+===================================
+
+:lang: fr
+:date: 2024-12-10 15:38:17+00:00
+:tags: Statistiques et Probabilités
+:slug: sp012
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+Le tableau suivant montre le poids moyen, :math:`y\,kg` , d’enfants âgés de :math:`x\,ans`.
+
+.. |tableau_age_poids| image:: images/tableau_age_poids.png
+   :scale: 80%
+   :alt: tableau_age_poids
+      
+|tableau_age_poids|
+
+La relation entre les variables est modélisée par la droite de régression d’équation :math:`y = ax + b`.
+
+A)
+
+   i)
+
+      Trouvez la valeur de :math:`a` et celle de :math:`b`.
+   
+   ii)
+   
+      Écrivez le coefficient de corrélation.
+
+B)
+
+   Utilisez votre équation pour estimer le poids moyen d’un enfant âgé de :math:`1,95 ans`.
+   
+

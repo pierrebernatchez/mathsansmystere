@@ -1,0 +1,31 @@
+Statistiques et probabilités Q 016.
+===================================
+
+:lang: fr
+:date: 2024-12-10 15:22:26+00:00
+:tags: Statistiques et Probabilités
+:slug: sp016
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |normale_moyenne| image:: images/normale_moyenne.png
+   :scale: 80%
+   :alt: normale_moyenne
+	 
+Soit la variable aléatoire X normalement distribuée avec une moyenne de :math:`25`,
+comme le montre la figure ci-dessous.
+
+|normale_moyenne|
+
+La région grisée entre :math:`25` et :math:`27` représente :math:`30{\%}` de la distribution.
+
+A)
+
+   Trouvez :math:`P(X > 27)`
+
+B)
+
+   Trouvez l’écart-type de :math:`X`.
+
+

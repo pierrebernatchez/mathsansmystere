@@ -1,0 +1,42 @@
+Fonctions Q 018.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:34+00:00
+:tags: Fonctions
+:slug: fun018
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |figure_x18a| image:: images/figure_x18a.png
+   :scale: 60%
+   :alt: figure_x18a
+
+Soit la fonction :math:`y = a\,sin\,2x + c`, :math:`-180 \le x \le 180`;
+:math:`x` est mesuré en degré.
+
+La courbe de la fonction est représentée ci-dessous.
+
+|figure_x18a|
+
+A)
+
+   Donnez:
+
+   i)
+
+      la période de cette fonction;
+
+   ii)
+
+      l'amplitude de cette fonction.
+
+B)
+
+   Déterminez les valeurs de :math:`a` et de :math:`c`.
+
+C)
+
+   Calculez l'abscisse :math:`x` de la première intersection de la courbe avec la partie negative de l'axe des abscisses.
+   

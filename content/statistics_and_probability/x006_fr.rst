@@ -1,0 +1,47 @@
+Statistiques et probabilités Q 006.
+===================================
+
+:lang: fr
+:date: 2024-12-10 16:28:38+00:00
+:tags: Statistiques et Probabilités
+:slug: sp006
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |poissons_femelles| image:: images/poissons_femelles.png
+   :scale: 70%
+   :alt: poissons_femelles
+      
+.. |poissons_males| image:: images/poissons_males.png
+   :scale: 70%
+   :alt: poissons_males
+      
+.. |courbe_1_a_4| image:: images/courbe_1_a_4.png
+   :scale: 70%
+   :alt: courbe_1_a_4
+      
+Une scientifique étudie :math:`100` poissons femelles et :math:`100` poissons mâles.
+Elle mesure leur longueur (arrondie au centimètre le plus proche).
+Les résultats sont donnés dans les diagrammes à boîtes et moustache suivants.
+
+Poissons femelles
+
+|poissons_femelles|
+
+Poissons mâles
+
+|poissons_males|
+
+A)
+
+   Trouvez l’étendue des longueurs de tous les :math:`200` poissons.
+
+   
+Quatre courbes de fréquence cumulée sont représentées ci-dessous.
+   
+|courbe_1_a_4|
+
+B)
+
+   Quelle courbe représente le mieux les longueurs des poissons femelles?

@@ -1,0 +1,50 @@
+#!/bin/bash
+#
+# bash trick to obtain a clean absolute path to this script.
+pushd `dirname $0` >/dev/null
+SCRIPTPATH=`pwd -P`
+popd >/dev/null
+#
+# Duplicate the images to supply identical relative context to tmp .rst files
+# Srip each .rst file in the temp directory
+# Generate pdf files for the temp context
+PROJECTPATH=$(dirname ${SCRIPTPATH})
+BASEDIR=$(dirname ${PROJECTPATH})
+# Coloring sequenses
+COLRED="\e[31m"
+COLOFF="\e[0m"
+COLGREEN="\e[32m"
+#
+# Local context
+#
+UNSTRIPPEDDIR=${PROJECTPATH}/recipes
+UNSTRIPPEDIMAGES=${PROJECTPATH}/images
+#
+# Temp context
+STRIPPEDDIR=$(mktemp -d)
+STRIPPEDRSTFILES=${STRIPPEDDIR}/recipes
+STRIPPEDRSTIMAGES=${STRIPPEDDIR}/images
+mkdir ${STRIPPEDRSTFILES}
+mkdir ${STRIPPEDRSTIMAGES}
+ln ${UNSTRIPPEDIMAGES}/* ${STRIPPEDRSTIMAGES}/
+#
+# target for pdfs
+#
+RECPDFDIR=${PROJECTPATH}/rec_pdfs
+/usr/bin/mkdir -p ${RECPDFDIR}/
+
+#
+# Strip to temp context
+for afilepath in ${UNSTRIPPEDDIR}/*.rst ; do
+    mybasname=$(basename ${afilepath}) 
+    echo -e ${COLGREEN} 'Stripping' ${COLOFF} ${mybasname} ${COLGREEN} to ${COLOFF} ${STRIPPEDRSTFILES}/${mybasname}
+    egrep  -v '^\:.*\:' ${afilepath} > ${STRIPPEDRSTFILES}/${mybasname}
+done
+echo -e ${COLGREEN} 'Generating pdf files in' ${COLOFF} ${RECPDFDIR}/ 
+handy_rst_to_pdf -s  ${STRIPPEDRSTFILES}/ -o ${RECPDFDIR}/
+
+echo -e ${COLGREEN} 'Recursively Removing The temp context ' ${COLOFF} ${STRIPPEDDIR}
+rm -r ${STRIPPEDDIR}
+
+
+

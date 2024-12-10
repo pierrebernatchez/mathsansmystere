@@ -1,0 +1,32 @@
+Géométrie et Trigonométrie Q 005.
+=================================
+
+:lang: fr
+:date: 2024-12-10 00:03:40+00:00
+:tags: Géométrie et Trigonométrie
+:slug: gt005
+:category: Géométrie et Trigonométrie
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |figure_x5| image:: images/figure_x5.png
+   :scale: 60%
+   :alt: figure_x5
+      
+La figure nest pas à l'échelle.
+
+|figure_x5|
+
+La figure montre :math:`\bigtriangleup\,PQR`, tel que :math:`RQ = 9\,cm`, :math:`\angle\,PRQ = 70^\circ`. :math:`\angle\,PQR = 45^\circ`.
+
+A) Trouvez :math:`\angle\,RPQ`.
+
+B) Trouvez :math:`PR`.
+      
+C) Trouvez l'aire de :math:`\bigtriangleup\,PQR`.
+
+
+   
+
+	   
+

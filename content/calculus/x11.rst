@@ -1,0 +1,30 @@
+Calcul Q 011.
+=============
+
+:lang: fr
+:date: 2024-12-09 13:25:21+00:00
+:TAGS: calculus
+:slug: cal011
+:category: Calcul
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+	  
+On considère la fonction :math:`f` dont la dérivée seconde est :math:`f^{\prime\prime}(x) = 3x -1`.
+
+La représentation graphique de :math:`f` présente un point minimum en :math:`A(2 ; 4)` et un point maximum en :math:`B(-\frac{4}{3}; \frac{358}{27})`.
+
+A)
+
+   Utilisez la dérivée seconde pour justifier que :math:`B` est un maximum.
+
+
+B)
+
+   Étant donné que :math:`f^\prime(x) = \frac{3}{2}x^2 - x + p`, montrez que :math:`p = -4`.
+
+
+C)
+
+
+   Trouvez :math:`f(x)`.
+

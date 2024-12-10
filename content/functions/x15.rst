@@ -1,0 +1,30 @@
+Fonctions Q 015.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:38+00:00
+:tags: Fonctions
+:slug: fun015
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+On considère deux fonctions quadratiques différentes de la forme :math:`f(x) = 4x^2 - qx + 25`.
+
+La représentation graphique de chacune des fonctions a son sommet sur l'axe des abscisses.
+
+
+A)
+
+   Trouvez les deux valeurs de :math:`q`.
+
+B)
+
+   Pour la plus grande valeur de :math:`q` résolvez :math:`f(x) = 0`.
+
+   
+C)
+
+   Trouvez les coordonnées du point d'intersection de deux représentations graphiques.
+   
+

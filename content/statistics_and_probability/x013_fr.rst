@@ -1,0 +1,66 @@
+Statistiques et probabilités Q 013.
+===================================
+
+:lang: fr
+:date: 2024-12-10 15:38:07+00:00
+:tags: Statistiques et Probabilités
+:slug: sp013
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |tableau_de_pommes| image:: images/tableau_de_pommes.png
+   :scale: 80%
+   :alt: tableau_de_pommes
+      
+La masse :math:`M` de pommes, en grammes, est normalement distribuée avec une moyenne :math:`\mu`.
+
+Le tableau suivant montre les probabilités pour des valeurs de :math:`M`.
+
+|tableau_de_pommes|
+
+A)
+
+   i)
+
+      Écrivez la valeur de :math:`k`.
+
+   ii)
+
+      Montrez que :math:`$\mu = 106`.
+
+B)
+
+   Trouvez :math:`P(M < 95)`.
+
+Les pommes sont emballées dans des sacs de dix.
+Toute pomme dont la masse est inférieure à :math:`95\,gm` est classée comme étant petite.
+
+
+C)
+
+   Trouvez la probabilitée qu’un sac de pommes choisi au hasard contienne au plus une petite pomme.
+
+D)
+
+   Une caisse contient :math:`50` sacs de pommes.
+   Une caisse est choisie au hasard.
+
+   i)
+   
+      Trouvez le nombre espéré de sacs de cette caisse qui contiennent au plus une petite pomme.
+
+      
+   ii)
+   
+      Trouvez la probabilitée qu'au moins 48 sacs de cette caisse contiennent au plus une petite pomme.
+
+
+
+
+
+
+
+
+
+

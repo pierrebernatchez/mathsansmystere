@@ -1,0 +1,27 @@
+Statistiques et probabilités Q 003.
+===================================
+
+:lang: fr
+:date: 2024-12-10 17:39:43+00:00
+:tags: Statistiques et Probabilités
+:slug: sp003
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |courbe_de_notes| image:: images/courbe_de_notes.png
+   :scale: 70%
+   :alt: courbe_de_notes
+
+La courbe des effectifs cumulés ci-dessous représente les notes de :math:`100` étudiants.
+
+|courbe_de_notes|
+
+A)
+   
+   Trouvez la note médianne.
+
+B)
+
+   Trouvez l'intervalle interquartile.
+

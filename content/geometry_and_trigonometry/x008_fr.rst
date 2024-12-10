@@ -1,0 +1,39 @@
+Géométrie et Trigonométrie Q 008.
+=================================
+
+:lang: fr
+:date: 2024-12-09 22:54:31+00:00
+:tags: Géométrie et Trigonométrie
+:slug: gt008
+:category: Géométrie et Trigonométrie
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |figure_x8| image:: images/figure_x8.png
+   :scale: 60%
+   :alt: figure_x8
+
+La figure ci-dessous représente le plan d'une fenêtre en forme de trapèze.
+
+La figure nest pas à l'échelle.
+
+|figure_x8|
+
+
+Trois côtés de la fenêtre ont une longueur de :math:`2\,m`. L'angle entre les côtés obliques de la fenêtre et la base est :math:`\theta`, où :math:`0 \le \theta \le \frac{\pi}{2}`.   
+
+
+A) Montrez que l'aire de la fenêtre est donnée par :math:`y = 4\,sin\,\theta + 2\,sin\,2\theta`.
+
+B) Zoé veut une fenêtre avec une aire de :math:`5 m^2`. Trouvez les deux valeures possibles de :math:`\theta`.
+
+C) John veut deux fenêtres qui ont la même aire :math:`A` mais des valeures différentes de :math:`\theta`. Trouvez toutes les valeurs possibles de :math:`A`.
+
+
+
+
+
+   
+
+	   
+

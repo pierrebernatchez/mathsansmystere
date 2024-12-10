@@ -1,0 +1,50 @@
+Statistiques et probabilités Q 005.
+===================================
+
+:lang: fr
+:date: 2024-12-10 17:27:23+00:00
+:tags: Statistiques et Probabilités
+:slug: sp005
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |arbre_rb| image:: images/arbre_rb.png
+   :scale: 100%
+   :alt: arbre_rb
+      
+Un sac :math:`A` contient trois boules blanches et quatre boules rouges.
+
+Deux boules sont choisies au hazard et sans remise.
+
+A)
+
+   i)
+
+      Copiez et complétez le diagramme en arbre suivant. (N’écrivez rien sur cette page.)
+
+|arbre_rb|
+
+   ii)
+
+      Trouvez la probabilité que deux boules blanches soient choisies.
+
+
+      
+Un sac :math:`B`  contient quatre boules blanches et trois boules rouges.
+
+Quand deux boules sont choisies au hasard et sans remise dans le sac :math:`B`, la probabilité qu’elles soient toutes les deux blanches est :math:`\frac{2}{7}`.
+
+
+Un dé standard est lancé. Si l’on obtient :math:`1` ou :math:`2`, deux boules sont choisies au hasard et sans remise dans le sac :math:`A`, sinon elles sont choisies dans le sac :math:`B`.
+
+B)
+
+   Trouvez la probabilité que les deux boules soient blanches.
+
+C)
+
+   Étant donné que les deux boules sont blanches, trouvez la probabilité qu’elles aient été choisies dans le sac :math:`A`.
+
+   
+

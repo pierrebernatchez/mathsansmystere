@@ -1,0 +1,22 @@
+Fonctions Q 022.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:28+00:00
+:tags: Fonctions
+:slug: fun022
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+Soit :math:`f(x)=3x`, :math:`g(x)=2x - 5` et :math:`h(x) = (f \circ g)(x)`.
+
+A)
+
+   Trouvez :math:`fh(x)`.
+
+B)
+
+   Trouvez :math:`fh^{-1}(x)`.
+   
+   

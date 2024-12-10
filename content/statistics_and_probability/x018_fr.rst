@@ -1,0 +1,46 @@
+Statistiques et probabilités Q 018.
+===================================
+
+:lang: fr
+:date: 2024-12-10 01:23:40+00:00
+:tags: Statistiques et Probabilités
+:slug: sp018
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |histogram_etudiants_notes| image:: images/histogram_etudiants_notes.png
+   :scale: 80%
+   :alt: histogram_etudiants_notes
+      
+Le tableau ci-dessous donne les notes d’examen de :math:`120` élèves.
+
+|histogram_etudiants_notes|
+
+A)
+
+   Trouvez la valeur de
+
+   i)
+
+      :math:`p`.
+
+      
+   ii)
+
+      :math:`q`.
+
+B)
+
+   Trouvez la note moyenne.
+
+C)
+
+   Donnez l'écart-type.
+
+
+
+   
+
+   
+

@@ -1,0 +1,15 @@
+Fonctions Q 005.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:50+00:00
+:tags: Fonctions
+:slug: fun005
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+Considérez l'équation :math:`x^2 + (k-1)x + 1 = 0`, où :math:`k` est un nombre réel.
+
+Trouvez les valeurs de :math:`k` pour lesquelles l’équation a deux solutions réelles *égales*.
+

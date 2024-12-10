@@ -1,0 +1,44 @@
+Fonctions Q 004.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:51+00:00
+:tags: Fonctions
+:slug: fun004
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |diagramme_x4a| image:: images/diagramme_x4a.png
+   :scale: 50%
+   :alt: diagramme_x4a
+
+.. |diagramme_x4b| image:: images/diagramme_x4b.png
+   :scale: 50%
+   :alt: diagramme_x4b
+
+.. |diagramme_x4c| image:: images/diagramme_x4c.png
+   :scale: 50%
+   :alt: diagramme_x4c
+      
+La fonction :math:`f(x)` pour :math:`-2 \le x \le 3` est representé ci-dessous.
+
+|diagramme_x4a|
+   
+La représentation graphique de :math:`f` est transformée pour obtenir celle de :math:`g` représentée ci-dessous.
+
+|diagramme_x4c|
+
+   
+A)
+
+   Esquissez la representation graphique :math:`f(-x)` sur le système d'axe ci-dessous.
+
+|diagramme_x4b|
+
+B)
+
+   La fonction :math:`g`  peut s'écrire sous la forme :math:`g(x) = a\,f(x + b)`.
+   
+   Donnez la valeur de :math:`a` et celle de :math:`b`.
+   

@@ -1,0 +1,30 @@
+Statistiques et probabilités Q 004.
+===================================
+
+:lang: fr
+:date: 2024-12-10 17:30:26+00:00
+:tags: Statistiques et Probabilités
+:slug: sp004
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+ 
+.. |px_table| image:: images/px_table.png
+   :scale: 100%
+   :alt: px_table
+      
+La variable aléatoire :math:`X` suit la distribution de probabilité suivante, avec :math:`P(X >1) = 0,5`.
+
+|px_table|
+   
+
+A)
+
+   Trouvez la valeur de :math:`r`.
+   
+
+B)
+
+   Étant donné que :math:`E(X ) = 1,4`, trouvez la valeur de :math:`p` et celle de :math:`q`.
+
+

@@ -1,0 +1,37 @@
+Statistiques et probabilités Q 007.
+===================================
+
+:lang: fr
+:date: 2024-12-10 16:22:12+00:00
+:tags: Statistiques et Probabilités
+:slug: sp007
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |venn_a_b| image:: images/venn_a_b.png
+   :scale: 100 %
+   :alt: venn_a_b
+      
+Le diagramme de Venn ci-dessous représente les événements :math:`A`  et :math:`B`
+où :math:`P(A) = 0,3`, :math:`P(A \cup B) = 0,6` et :math:`P(A \cap B) = 0,1`.
+
+Les valeurs :math:`m`, :math:`n`, :math:`p` et :math:`q` sont des probabilitées.
+
+|venn_a_b|
+
+A)
+
+   i)
+
+      Donnez la valeur de :math:`n`.
+   
+   ii)
+
+   Trouvez la valeur de :math:`m`, :math:`p` et de :math:`q`.
+
+B)
+
+   Trouvez :math:`P(B)`.
+   
+

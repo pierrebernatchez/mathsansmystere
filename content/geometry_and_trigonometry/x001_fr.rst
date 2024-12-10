@@ -1,0 +1,31 @@
+Géométrie et Trigonométrie Q 001.
+=================================
+
+:lang: fr
+:date: 2024-12-10 00:13:56+00:00
+:tags: Géométrie et Trigonométrie
+:slug: gt001
+:category: Géométrie et Trigonométrie
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+	  
+.. |figure_x1| image:: images/figure_x1.png
+   :scale: 40%
+   :alt: figure_x1
+	   
+La figure nest pas à l'échelle.
+
+|figure_x1|
+
+Cercle de centre :math:`O` et de rayon égale à :math:`r` cm.
+
+
+
+Les points :math:`A` et :math:`B` sont situés sur la circonférence du cercle et :math:`\angle AOB = \theta`. L'aire du secteur grisé :math:`AOB` est de :math:`12 cm^2` et la longueur de l'arc :math:`AB` est de :math:`6 cm`.
+
+Trouvez la valeur de :math:`r`.
+
+
+
+	   
+

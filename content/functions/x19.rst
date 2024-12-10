@@ -1,0 +1,24 @@
+Fonctions Q 019.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:33+00:00
+:tags: Fonctions
+:slug: fun019
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |diagramme_x19| image:: images/diagramme_x19.png
+   :scale: 60%
+   :alt: diagramme_x19
+
+Soit :math:`f(x) = sin(e^x)` pour :math:`0 \le x \le 1,5`.
+
+Le diagramme suivant montre la représentation graphique de :math:`f`.
+ 
+|diagramme_x19|
+
+Trouvez l'abscisse à l'origine de la représentation graphique de :math:`f`.
+
+

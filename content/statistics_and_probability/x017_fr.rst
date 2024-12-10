@@ -1,0 +1,41 @@
+Statistiques et probabilités Q 017.
+===================================
+
+:lang: fr
+:date: 2024-12-10 01:26:06+00:00
+:tags: Statistiques et Probabilités
+:slug: sp017
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |tableau_sommes_des_scores| image:: images/tableau_sommes_des_scores.png
+   :scale: 80%
+   :alt: tableau_sommes_des_scores
+      
+Deux dés équilibrés à quatre faces, l’un rouge et l’autre vert, sont jetés.
+Pour chaque dé, les faces sont marquées :math:`1, 2, 3, 4`.
+Le score pour chaque dé est le nombre sur la face sur laquelle le dé tombe.
+
+A)
+
+   Listez les paires de scores qui donnent une somme de :math:`6`.
+
+La distribution de probabilités pour la somme des scores des deux dés est donnée ci-dessous.
+
+|tableau_sommes_des_scores|
+
+B)
+
+   Trouvez la valeur de :math:`p`, de :math:`q` et de :math:`r`.
+
+Fred joue à un jeu. Il lance quatre fois deux dés équilibrés à quatre faces.
+Il gagne un prix si la somme est :math:`5` pour trois lancers ou plus.
+
+
+C)
+
+   Trouvez la probabilité que Fred gagne un prix.
+
+   
+

@@ -1,0 +1,47 @@
+Statistiques et probabilités Q 020.
+===================================
+
+:lang: fr
+:date: 2024-12-10 01:18:49+00:00
+:tags: Statistiques et Probabilités
+:slug: sp020
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |tableau_poids_boite| image:: images/tableau_poids_boite.png
+   :scale: 80%
+   :alt: tableau_poids_boite
+
+Il y a :math:`50`  boîtes dans une usine.
+Les poids, :math:`w` en :math:`kg`, sont divisés en :math:`5` classes,
+comme le montre le tableau ci-dessous.
+ 
+|tableau_poids_boite|
+
+A)
+
+   Montrez que le poids moyen estimé des boîtes est :math:`32\,kg`.
+
+B)
+
+   Dans l’usine, il y a :math:`x` boîtes marquées « Fragile ».
+   Elles sont toutes dans la classe :math:`E`.
+   Le poids moyen estimé de toutes les autres boîtes dans l’usine est :math:`30\,kg`.
+
+   Calculez la valeur de :math:`x`.
+
+
+C)
+
+   Une livraison de :math:`y` boîtes supplémentaires,
+   toutes ayant un poids dans la classe :math:`D`, est apportée à l’usine.
+
+   Le poids moyen estimé total de toutes les boîtes dans l’usine est inférieur à :math:`33\,kg`.
+
+   Trouvez la plus grande valeur possible de :math:`y`.
+   
+
+
+   
+

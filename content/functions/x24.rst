@@ -1,0 +1,34 @@
+Fonctions Q 024.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:24+00:00
+:tags: Fonctions
+:slug: fun024
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |figure_x24| image:: images/figure_x24.png
+   :scale: 40%
+   :alt: figure_x24
+
+On considère :math:`f(x) = 2 - x^2`, avec :math:`-2 \le x \le 2`
+et :math:`g(x)= sin\,e^x`, avec :math:`-2 \le x \le 2`.
+ 
+La représentation graphique de :math:`f(x)` est donnée ci-dessous.
+
+|figure_x24|
+
+A)
+
+   Sur la figure ci-dessus, esquissez la représentation graphique de :math:`g`.
+
+B)
+
+   Resolvez :math:`f(x) = g(x)`.
+
+C)
+
+   Donnez lensemble des valeurs de :math:`x` telles que :math:`f(x) > g(x)`.
+   

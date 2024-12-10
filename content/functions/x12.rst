@@ -1,0 +1,15 @@
+Fonctions Q 012.
+================
+
+:lang: fr
+:date: 2024-12-09 16:31:41+00:00
+:tags: Fonctions
+:slug: fun012
+:category: Fonctions
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+
+Résolvez :math:`log_2x + log_2(x - 2) = 3`, avec :math:`x > 2`.
+
+   

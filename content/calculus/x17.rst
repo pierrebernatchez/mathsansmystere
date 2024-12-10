@@ -1,0 +1,31 @@
+Calcul Q 017.
+=============
+
+:lang: fr
+:date: 2024-12-08 16:50:59+00:00
+:tags: Calcul
+:slug: cal017
+:category: Calcul
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+.. |grid_5_12| image:: ./images/grid_5_12.png
+   :scale: 60%
+   :alt: grid_5_12
+
+
+Soit :math:`f(x) = Cos(e^x)`, pour :math:`-2 \le x \le 2`.
+
+
+A)
+
+   Trouvez :math:`f^\prime(x)`.
+
+
+B)
+
+   Sur le système d'axes ci-dessous, esquissez la représentation graphique de :math:`f^\prime(x)`.
+
+|grid_5_12| 
+
+

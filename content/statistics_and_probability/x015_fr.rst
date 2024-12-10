@@ -1,0 +1,29 @@
+Statistiques et probabilités Q 015.
+===================================
+
+:lang: fr
+:date: 2024-12-10 15:25:19+00:00
+:tags: Statistiques et Probabilités
+:slug: sp015
+:category: Statistiques et Probabilités
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+
+Une usine fabrique des lampes.
+La probabilité qu’une lampe soit défectueuse est de :math:`0,05`.
+Un échantillon aléatoire de :math:`30` lampes est examiné.
+
+A)
+
+   Trouvez la probabilité qu’il y ait au moins une lampe défectueuse dans l’échantillon.
+
+B)
+
+   Étant donné qu’il y a au moins une lampe défectueuse dans l’échantillon,
+   trouvez la probabilité qu’il y ait au plus deux lampes défectueuses.
+
+
+   
+
+   
+

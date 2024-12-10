@@ -1,0 +1,16 @@
+Calcul Q 009.
+=============
+
+:lang: fr
+:date: 2024-12-09 13:48:08+00:00
+:tags: Calcul
+:slug: cal009
+:category: Calcul
+:authors: Pierre Bernatchez
+:summary: Question d'éxercice
+	  
+Soit :math:`f(x) = kx^4`. Le point :math:`P(1 ; k)` est sur la courbe représentant :math:`f`.
+En :math:`P`, la normale à la courbe est parallèle à :math:`y = -\frac{1}{8}x`.
+
+
+Trouvez la valeur de :math:`k`.
