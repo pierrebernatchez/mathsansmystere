@@ -1,8 +1,0 @@
-Q 5.
-====
-
-
-Soit :math:`h(x) = \frac{6x}{cos x}`.
-
-Trouvez :math:`h^\prime(0)`.
-

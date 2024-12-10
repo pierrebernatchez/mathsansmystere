@@ -1,8 +1,0 @@
-Q 13.
-=====
-
-Soit :math:`f^\prime(x) = 12x^2 - 2`.
-
-Sachant que :math:`f(-1) = -1`, trouvez :math:`f(x)`.
-
-

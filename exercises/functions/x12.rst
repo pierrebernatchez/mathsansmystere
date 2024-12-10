@@ -1,7 +1,0 @@
-Q 12.
-=====
-
-
-Résolvez :math:`log_2x + log_2(x - 2) = 3`, avec :math:`x > 2`.
-
-   

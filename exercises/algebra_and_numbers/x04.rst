@@ -1,9 +1,0 @@
-Q 4.
-====
-
-L'un des termes du développement de :math:`(x + 2y)^{10}`  est :math:`ax^8y^2`.
-
-Trouvez la valeur de :math:`a`.
-
-
-  
