@@ -5,8 +5,19 @@ PELICANOPTS=
 BASEDIR=$(CURDIR)
 
 INPUTDIR=$(BASEDIR)/content
+#
+# We use this to create pdfs_list.rst which
+# is included by pages/pdfdocs_en.rst
 COMPILE_RST=$(BASEDIR)/bin/compile_rst
+#
+# Makes hard links in content/images pointing
+# to git preserved images in project-images/
 LINKIMAGES=$(BASEDIR)/bin/msmlinks
+#
+# Makes soft links to .pdf files we want to include in the site
+# to git preserved images in project-images/
+LINKPDFS=$(BASEDIR)/bin/pdflinks
+
 
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
@@ -58,7 +69,7 @@ help:
 	@echo '                                                                       '
 
 html:
-
+	${LINKPDFS}
 	$(LINKIMAGES)
 	$(COMPILE_RST) -p '*.pdf' -s sitepdfs -o pdfs_list -i
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)

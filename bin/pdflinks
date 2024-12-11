@@ -3,30 +3,48 @@
 pushd `dirname $0` >/dev/null
 SCRIPTPATH=`pwd -P`
 popd >/dev/null
-LINKDIR=`pwd -P`
-LINKDIRNAME=$(basename ${LINKDIR})
 MYPROGNAME=$(basename $0)
 PROJECTPATH=$(dirname ${SCRIPTPATH})
+LINKDIR=${PROJECTPATH}/content/sitepdfs
 BASEDIR=$(dirname ${PROJECTPATH})
 COLRED="\e[31m"
 COLOFF="\e[0m"
 COLGREEN="\e[32m"
-echo LINKDIR=${PROJECTPATH}
-echo LINKDIRNAME=${LINKDIRNAME} \# must match "sitepdfs"
-echo PROJECTPATH=${PROJECTPATH}
-echo BASEDIR=${BASEDIR}
-case "${LINKDIRNAME}" in
-    *sitepdfs*)
-	echo -e ${COLGREEN} 'YES LINKING PDFS IN ' ${COLOFF} ${LINKDIR} 
-	ln -f -s ${BASEDIR}/generic/pdf_docs/patchhowto.pdf	
-	ln -f -s ${BASEDIR}/generic/pdf_docs/virtualenv.pdf
-	ln -f -s ${BASEDIR}/generic/pdf_docs/privatepypi.pdf
-	ln -f -s ${PROJECTPATH}/pdf_docs/README.pdf
-	;;
-    *)
-	echo -e ${COLRED} 'NO NOT LINKING PDFS IN ' ${COLOFF} ${LINKDIR} 
-	;;
-esac
+if [[ -d ${LINKDIR} ]] ; then
+    # clean out any lingering links
+    /usr/bin/rm -f ${LINKDIR}/*.pdf
+    pushd ${LINKDIR} >/dev/null
+    LINKDIRNAME=$(basename $(pwd -P))
+    echo LINKDIRNAME=${LINKDIRNAME} \# must match "sitepdfs"
+    echo PROJECTPATH=${PROJECTPATH}
+    echo BASEDIR=${BASEDIR}
+    case "${LINKDIRNAME}" in
+	*sitepdfs*)
+	    if [[ -r ${BASEDIR}/generic/pdf_docs/patchhowto.pdf ]] ; then
+		echo -e ${COLGREEN} 'LINKING ' ${COLOFF} patchhowto.pdf
+		ln -f -s ${BASEDIR}/generic/pdf_docs/patchhowto.pdf
+	    fi
+	    if [[ -r ${BASEDIR}/generic/pdf_docs/virtualenv.pdf ]] ; then
+		echo -e ${COLGREEN} 'LINKING ' ${COLOFF} virtualenv.pdf
+		ln -f -s ${BASEDIR}/generic/pdf_docs/virtualenv.pdf
+	    fi
+	    if [[ -r ${BASEDIR}/generic/pdf_docs/privatepypi.pdf ]] ; then
+		echo -e ${COLGREEN} 'LINKING ' ${COLOFF} privatepypi.pdf
+		ln -f -s ${BASEDIR}/generic/pdf_docs/privatepypi.pdf
+	    fi
+	    if [[ -r ${PROJECTPATH}/pdf_docs/README.pdf ]] ; then
+		echo -e ${COLGREEN} 'LINKING ' ${COLOFF} README.pdf
+		ln -f -s ${PROJECTPATH}/pdf_docs/README.pdf
+	    fi
+	    ;;
+	*)
+	    echo -e ${COLRED} 'NO NOT LINKING PDFS IN ' ${COLOFF} ${LINKDIR}
+	    echo -e ${COLRED} 'We only link here: ' ${COLOFF} sitepdfs/
+	    ;;
+    esac
+    popd >/dev/null
+fi
+
 
 
 
