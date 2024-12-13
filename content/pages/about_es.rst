@@ -1,15 +1,25 @@
 Acerca De
 #########
-
+ 
 :lang: es
-:date: 2015-03-19 11:52:30
-:tags: about
+:date: 2024-12-12 00:40:11+00:00
+:tags: Acerca de
 :slug: about
 :category: Acerca De
 :author: Pierre Bernatchez
-:summary: Site information
+:summary: Propósito
 
-El propósito de este sitio web es compartir información e ideas entre amigos.
+El propósito de este sitio web es compartir materiales didacticos entre profesores y alumnos.
 
+.. table:: 
+   :widths: 30 40 30
+   :align: center
+	     
+   +----------------+---------------------------+----------------+
+   |                |   La identidad de Euler   |                |
+   +================+===========================+================+
+   |                | :math:`e^{i\pi} + 1 = 0`  |                |
+   +----------------+---------------------------+----------------+
+                                 
 
                                  

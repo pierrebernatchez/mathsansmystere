@@ -20,10 +20,6 @@ if [[ -d ${LINKDIR} ]] ; then
     echo BASEDIR=${BASEDIR}
     case "${LINKDIRNAME}" in
 	*sitepdfs*)
-	    if [[ -r ${BASEDIR}/generic/pdf_docs/patchhowto.pdf ]] ; then
-		echo -e ${COLGREEN} 'LINKING ' ${COLOFF} patchhowto.pdf
-		ln -f -s ${BASEDIR}/generic/pdf_docs/patchhowto.pdf
-	    fi
 	    if [[ -r ${BASEDIR}/generic/pdf_docs/virtualenv.pdf ]] ; then
 		echo -e ${COLGREEN} 'LINKING ' ${COLOFF} virtualenv.pdf
 		ln -f -s ${BASEDIR}/generic/pdf_docs/virtualenv.pdf
@@ -35,6 +31,10 @@ if [[ -d ${LINKDIR} ]] ; then
 	    if [[ -r ${PROJECTPATH}/pdf_docs/README.pdf ]] ; then
 		echo -e ${COLGREEN} 'LINKING ' ${COLOFF} README.pdf
 		ln -f -s ${PROJECTPATH}/pdf_docs/README.pdf
+	    fi
+	    if [[ -r ${PROJECTPATH}/pdf_docs/patch-theme.pdf ]] ; then
+		echo -e ${COLGREEN} 'LINKING ' ${COLOFF} patch-theme.pdf
+		ln -f -s ${PROJECTPATH}/pdf_docs/patch-theme.pdf
 	    fi
 	    ;;
 	*)

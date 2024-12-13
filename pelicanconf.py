@@ -4,10 +4,14 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Pierre Bernatchez'
-SITENAME = u'Math Sans Mystère'
-#SITEURL = u'http://www.bernatchez.net/static_testsite'
+# SITENAME = u'Mathématiques Communautaires'
+#  Some code to make up a reasonable euler id string
+PI_CHAR=u"\u03C0"
+EURLER_E=u"\u212F"
+# Since we have no superscripted PI, this is the best I can do in a unicode string.
+EULER_ID=EURLER_E + u"^{i" + PI_CHAR + u"} + 1 = 0"
+SITENAME = EULER_ID
 SITEURL = u'http://127.0.0.1:8000'
-
 THEME = u"/home/ubuntu/pelican-themes/lightweight"
 #THEME = u"/home/ubuntu/pelican-themes/sneakyidea"
 #THEME = u"/home/ubuntu/pelican-themes/basic"
@@ -35,4 +39,6 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-STATIC_PATHS=['images', 'compilations', 'tarballs', 'sitepdfs' ]
+STATIC_PATHS=['images', 'compilations', 'tarballs', 'sitepdfs', 'extras/custom.css' ]
+EXTRA_PATH_METADATA = { 'extras/custom.css': {'path': 'static/custom.css'}}
+CUSTOM_CSS = 'static/custom.css'

@@ -100,7 +100,7 @@ Avogadro's Number
 
 *Markup*
 
-::
+:: 
    
    .. math:: e^{i\pi} + 1 = 0
       :label: euler
@@ -119,8 +119,20 @@ Euler's identity, equation \:eq\:`euler`, was elected one of the most
 beautiful mathematical formulas.
 
 
+Euler's identity equation, :math:`e^{i\pi} + 1 = 0`, was elected one
+of the most beautiful mathematical formulas.
+
+
+Euler's identity equation was elected one of the most beautiful
+mathematical formulas.
+
+.. math::
+
+   e^{i\pi} + 1 = 0
+      
+
 Domain Symbols
-----------------------------------
+--------------
 
 .. code-block:: rst
 		
