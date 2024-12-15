@@ -1,5 +1,5 @@
-Some Example Restructuredtext Math Mark Up
-==========================================
+Some Example RST Math Mark Up
+=============================
 
 :lang: en
 :date: 2024-12-08 06:02:51+00:00
@@ -14,150 +14,258 @@ Some Example Restructuredtext Math Mark Up
 .. |---| unicode:: U+02014 .. em dash
    :trim:
 
-
 To markup math expressions in restructuredtext there are two ways to mark things up.
-One, display style,  where each expression is emitted alone centered on a line.
+One, display style,  where each expression is emitted alone centered on a line [1]_.
+
 The other, inline style, where the expression is emitted embedded in the surrounding text.
-We  will illustrate both types starting with display style.
 
 Simple subscripts and superscripts
 ----------------------------------
 
+^ for superscript, _ for subscript
 
+When the item is more than a single character use: ^{xx}, _{yy}
 
-Multiple Equations aligned at '&' and separated at '\\'
-^ superscript
-_ subscript
-
-When the superscript or subscript is more than a single character
-use
-^{xx}
-_{yy}
-
-**Displayed Math**
 
 Quadratic Expression
 
-*Markup*
+*Displayed Markup*
 
-::
-
+.. code-block:: rst
+		
    .. math::
-   
-       (a + b)^2  &=  (a + b)(a + b) \\
-                  &=  a^2 + 2ab + b^2
+      
+      (a + b)^2 = (a + b)(a + b)
+	  
+      (a + b)(a + b) = a^2 + 2ab + b^2
 
 *Result*
 
 .. math::
 
-   (a + b)^2  &=  (a + b)(a + b) \\
-              &=  a^2 + 2ab + b^2
+   (a + b)^2 = (a + b)(a + b)
+	  
+   (a + b)(a + b) = a^2 + 2ab + b^2
 
-Avogadro's Number
-	      
-*Markup*
+*In line markup*
 
-::
+.. code-block:: rst
 
+   :math:`(a + b)^2 = (a + b)(a + b)`
+	  
+   :math:`(a + b)(a + b) = a^2 + 2ab + b^2`
+
+*Result*
+	  
+:math:`(a + b)^2 = (a + b)(a + b)`
+      
+:math:`(a + b)(a + b) = a^2 + 2ab + b^2`
+
+   
+Multiple Equations aligned at '\&' and separated at '\\'.
+---------------------------------------------------------
+
+*Display Markup*
+
+.. code-block:: rst
+		
    .. math::
-
-      6.0221409e^{23}
-
+      
+      (a + b)^2 &= (a + b)(a + b) \\ &=  a^2 + 2ab + b^2
+      
 *Result*
 
 .. math::
 
-   6.0221409e^{23}
-
-
-**Inline Math**
-
-
-*Markup*
-
-::
-   
-   Since Pythagoras, we know that: :math:`a^2 + b^2 = c^2`.
-
-*Result*
-
-   Since Pythagoras, we know that: :math:`a^2 + b^2 = c^2`.
-	      
-*Markup*
-
-::
-
-   Avogadro came up with this number: :math:`6.0221409e^{23}`
+   (a + b)^2 &= (a + b)(a + b) \\ &=  a^2 + 2ab + b^2
    
 
+*Inline Markup*
+
+.. code-block:: rst
+		
+   :math:`(a + b)^2 &= (a + b)(a + b) \\ &=  a^2 + 2ab + b^2`
+	  
 *Result*
 
-   Avogadro came up with this number: :math:`6.0221409e^{23}`
+:math:`(a + b)^2 &= (a + b)(a + b) \\ &=  a^2 + 2ab + b^2`
 
 
-**Labels**
+Labels
+------
+
+
+This requires a sphinx extension, so we cannot illustrate the result
+here.
 
 *Markup*
 
-:: 
+.. code-block:: rst
    
    .. math:: e^{i\pi} + 1 = 0
       :label: euler
 
-      Euler's identity, equation :eq:`euler`, was elected one of the most
-      beautiful mathematical formulas.
+   Euler's identity, equation :eq:`euler`, was elected one of the most
+   beautiful mathematical formulas.
 
-
-*Result*
-
-  Currently this gets rejected because the :label: attribute is not supported.
-  I think that is a sphinx extension.
-
-
-Euler's identity, equation \:eq\:`euler`, was elected one of the most
-beautiful mathematical formulas.
-
-
-Euler's identity equation, :math:`e^{i\pi} + 1 = 0`, was elected one
-of the most beautiful mathematical formulas.
-
-
-Euler's identity equation was elected one of the most beautiful
-mathematical formulas.
-
-.. math::
-
-   e^{i\pi} + 1 = 0
-      
 
 Domain Symbols
 --------------
 
+*Display Markup*
+
+Note how we escape a space character with \\ to retain a space character before the symbol.
+
+.. code-block:: rst
+
+   -
+      .. math:: REAl\ \mathbb{R}
+
+   -
+      .. math:: INTEGER\ \mathbb{Z}
+
+   -
+      .. math:: NATURAL\ \mathbb{N}
+
+   -
+      .. math:: RATIONAL\ \mathbb{Q}
+
+   -
+      .. math:: IRRATIONAL\ \mathbb{P}
+
+*Result*
+
+-
+   .. math:: REAl\ \mathbb{R}
+
+-
+   .. math:: INTEGER\ \mathbb{Z}
+
+-
+   .. math:: NATURAL\ \mathbb{N}
+
+-
+   .. math:: RATIONAL \mathbb{Q}
+
+-
+   .. math:: IRRATIONAL\ \mathbb{P}
+
+
+*Inline Markup*
+
 .. code-block:: rst
 		
-   REAl :math:`\mathbb{R}`
-	 
-   INTEGER :math:`\mathbb{Z}`
+   - REAl :math:`\mathbb{R}`
+   - INTEGER :math:`\mathbb{Z}`
+   - NATURAL :math:`\mathbb{N}`
+   - RATIONAL :math:`\mathbb{Q}`
+   - IRRATIONAL :math:`\mathbb{P}`
 
-   NATURAL :math:`\mathbb{N}`
-	 
-   RATIONAL :math:`\mathbb{Q}`
+*Result*
 
-   IRRATIONAL :math:`\mathbb{P}`
+- REAl :math:`\mathbb{R}`
+- INTEGER :math:`\mathbb{Z}`
+- NATURAL :math:`\mathbb{N}`
+- RATIONAL :math:`\mathbb{Q}`
+- IRRATIONAL :math:`\mathbb{P}`
 
-Result:
+*Display Markeup*
 
-   REAl :math:`\mathbb{R}`
-	 
-   INTEGER :math:`\mathbb{Z}`
+.. code-block:: rst
 
-   NATURAL :math:`\mathbb{N}`
-	 
-   RATIONAL :math:`\mathbb{Q}`
+   Euler's identity equation was elected one
+   of the most beautiful mathematical formulas.
 
-   IRRATIONAL :math:`\mathbb{P}`
+   .. math:: e^{i\pi} + 1 = 0   
       
+*result*
+
+Euler's identity equation was elected one
+of the most beautiful mathematical formulas.
+
+.. math:: e^{i\pi} + 1 = 0   
+
+*Inline Markup*
+
+.. code-block:: rst
+
+   Euler's identity equation, :math:`e^{i\pi} + 1 = 0`, was elected one
+   of the most beautiful mathematical formulas.
+		
+*result*
+
+Euler's identity equation, :math:`e^{i\pi} + 1 = 0`, was elected one
+of the most beautiful mathematical formulas.
+
+*Display Markup*
+
+.. code-block:: rst
+		
+   Since Pythagoras, we know that:
+   
+   .. math::
+      a^2 + b^2 = c^2
+
+*result*
+
+Since Pythagoras, we know that:
+
+.. math::
+   a^2 + b^2 = c^2
+
+
+*Inline Markup*
+
+.. code-block:: rst
+   
+   Since Pythagoras, we know that: :math:`a^2 + b^2 = c^2`.
+
+*Result*
+
+Since Pythagoras, we know that: :math:`a^2 + b^2 = c^2`.
+	      
+*Display Markup*
+
+.. code-block:: rst
+
+   A mole of a substance is defined as the number of molecules of that
+   substance it takes to make up its atomic weight in grams - That
+   number is known as Avogadro's number.  It is constant for all
+   molecules: approximately
+
+   .. math::
+      6.0221409e^{23}
+
+*Result*
+
+A mole of a substance is defined as the number of molecules of that
+substance it takes to make up its atomic weight in grams - That
+number is known as Avogadro's number.  It is constant for all
+molecules: approximately
+
+.. math::
+   6.0221409e^{23}
+
+
+*Inline Markup*
+
+.. code-block:: rst
+
+   A mole of a substance is defined as the number of molecules of that
+   substance it takes to make up its atomic weight in grams - That
+   number is known as Avogadro's number.  It is constant for all
+   molecules: approximately :math:`6.0221409e^{23}`
+   
+
+*Result*
+
+A mole of a substance is defined as the number of molecules of that
+substance it takes to make up its atomic weight in grams - That
+number is known as Avogadro's number.  It is constant for all
+molecules: approximately :math:`6.0221409e^{23}`
+
+
+.. [1] Our conversion from rst to html and to pdf in this project tends to drop the ball somewhat on centering displayed math text in output lines.
 
 
 
