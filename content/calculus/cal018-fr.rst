@@ -10,7 +10,7 @@ Calcul Q 018.
 :summary: Question d'éxercice
 
 Une particule se déplace sur une ligne droite avec une vitesse :math:`v = 12t - 2t^3 - 1`,
-pour :math:`t \ge 0`, oú :math:`v` est en centimetres par seconde et :math:`t` est en secondes.
+pour :math:`t \geq 0`, oú :math:`v` est en centimetres par seconde et :math:`t` est en secondes.
 
 
 A)

@@ -10,7 +10,8 @@ Calcul Q 002.
 :summary: Question d'éxercice
 
 .. |cylindre| image:: images/cylindre.png
-   :scale: 50%
+   :height: 192
+   :width:  192
    :alt: cylindre
 
 Une boîte en métal, cylindrique et fermée, de rayon égal à :math:`r` centimètres et de hauteur égale à :math:`h` centimètres possède un volume de :math:`20\pi\, cm^3`.

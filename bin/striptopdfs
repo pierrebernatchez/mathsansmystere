@@ -17,34 +17,47 @@ COLGREEN="\e[32m"
 #
 # Local context
 #
-UNSTRIPPEDDIR=${PROJECTPATH}/recipes
-UNSTRIPPEDIMAGES=${PROJECTPATH}/images
+UNSTRIPPEDDIR=${PROJECTPATH}/mrst
+UNSTRIPPEDIMAGES=${PROJECTPATH}/content/images
 #
 # Temp context
 STRIPPEDDIR=$(mktemp -d)
-STRIPPEDRSTFILES=${STRIPPEDDIR}/recipes
-STRIPPEDRSTIMAGES=${STRIPPEDDIR}/images
+STRIPPEDRSTFILES=${STRIPPEDDIR}/mrst
+STRIPPEDRSTIMAGES=${STRIPPEDDIR}/mrst/images
 mkdir ${STRIPPEDRSTFILES}
 mkdir ${STRIPPEDRSTIMAGES}
 ln ${UNSTRIPPEDIMAGES}/* ${STRIPPEDRSTIMAGES}/
+# echo -e ${COLGREEN} 'The temp context images in ' ${COLOFF} ${STRIPPEDRSTIMAGES}/
+# ls -l ${STRIPPEDRSTIMAGES}/
+
 #
 # target for pdfs
 #
-RECPDFDIR=${PROJECTPATH}/rec_pdfs
+RECPDFDIR=${PROJECTPATH}/mpdf
 /usr/bin/mkdir -p ${RECPDFDIR}/
 
 #
 # Strip to temp context
 for afilepath in ${UNSTRIPPEDDIR}/*.rst ; do
-    mybasname=$(basename ${afilepath}) 
-    echo -e ${COLGREEN} 'Stripping' ${COLOFF} ${mybasname} ${COLGREEN} to ${COLOFF} ${STRIPPEDRSTFILES}/${mybasname}
-    egrep  -v '^\:.*\:' ${afilepath} > ${STRIPPEDRSTFILES}/${mybasname}
+    mybasename=${afilepath##*/}
+    echo -e ${COLGREEN} 'Stripping' ${COLOFF} ${mybasename} ${COLGREEN} to ${COLOFF} ${STRIPPEDRSTFILES}/${mybasename}
+    egrep  -v '^\:.*\:' ${afilepath} > ${STRIPPEDRSTFILES}/${mybasename}
 done
-echo -e ${COLGREEN} 'Generating pdf files in' ${COLOFF} ${RECPDFDIR}/ 
-handy_rst_to_pdf -s  ${STRIPPEDRSTFILES}/ -o ${RECPDFDIR}/
+for nfilepath in ${STRIPPEDRSTFILES}/*.rst ; do
+    # mybasname=$(basename ${nfilepath})
+    mybasename=${nfilepath##*/}
+    mybasenamenoext=${mybasename%.*}
+    echo -e ${COLGREEN} 'Generating ' ${RECPDFDIR}/${mybasenamenoext}.pdf ${COLOFF} 
+    rst2pdf --verbose -o ${RECPDFDIR}/${mybasenamenoext}.pdf   < ${STRIPPEDRSTFILES}/${mybasename}
+done
 
-echo -e ${COLGREEN} 'Recursively Removing The temp context ' ${COLOFF} ${STRIPPEDDIR}
-rm -r ${STRIPPEDDIR}
+
+
+# 
+# handy_rst_to_pdf -s  ${STRIPPEDRSTFILES}/ -o ${RECPDFDIR}/
+
+# echo -e ${COLGREEN} 'Recursively Removing The temp context ' ${COLOFF} ${STRIPPEDDIR}
+# rm -r ${STRIPPEDDIR}
 
 
 

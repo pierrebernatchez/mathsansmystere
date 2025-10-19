@@ -4,7 +4,7 @@ Bienvenue
 :lang: fr
 :date: 2015-03-19 11:47:31
 :tags: Bienvenue
-:slug: welcome
+:slug: sitehome
 :category: Divers
 :authors: Pierre Bernatchez
 :summary: Bienvenue

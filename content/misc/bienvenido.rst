@@ -4,7 +4,7 @@ Bienvenido
 :lang: es
 :date: 2015-03-19 11:47:31
 :tags: Bienvenido
-:slug: welcome
+:slug: sitehome
 :category: Misceláneos
 :authors: Pierre Bernatchez
 :summary: Bienvenido

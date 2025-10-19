@@ -14,3 +14,5 @@ En :math:`P`, la normale à la courbe est parallèle à :math:`y = -\frac{1}{8}x
 
 
 Trouvez la valeur de :math:`k`.
+
+

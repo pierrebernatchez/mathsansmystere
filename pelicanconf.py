@@ -12,7 +12,8 @@ EURLER_E=u"\u212F"
 EULER_ID=EURLER_E + u"^{i" + PI_CHAR + u"} + 1 = 0"
 SITENAME = EULER_ID
 SITEURL = u'http://127.0.0.1:8000'
-THEME = u"/home/ubuntu/pelican-themes/lightweight"
+THEME = u"/home/ubuntu/allrepos/derived-themes/lightweight-single-home"
+#THEME = u"/home/ubuntu/pelican-themes/lightweight"
 #THEME = u"/home/ubuntu/pelican-themes/sneakyidea"
 #THEME = u"/home/ubuntu/pelican-themes/basic"
 #THEME = u"/home/ubuntu/pelican-themes/cebong"

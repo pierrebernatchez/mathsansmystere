@@ -14,7 +14,7 @@ Calcul Q 004.
    :alt: temp_cos_wave
       
 La figure suivante donne la représentation graphique de :math:`f(x) = a\,Cos\,bx`,
-pour :math:`0 \le x \le 4`.
+pour :math:`0 \leq x \leq 4`.
 
 La figure nest pas à l'échelle.
 
@@ -36,3 +36,5 @@ B)
 C)   
 
    Donnez l’équation de la normale à la courbe en :math:`P`.
+
+

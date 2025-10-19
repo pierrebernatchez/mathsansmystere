@@ -13,7 +13,7 @@ Calcul Q 021.
    :scale: 60%
    :alt: etox_sin2x
 
-Soit :math:`f(x) = e^x Sin 2x + 10`, avec :math:`0 \le x \le  4`.
+Soit :math:`f(x) = e^x Sin 2x + 10`, avec :math:`0 \leq x \leq  4`.
 
 Une partie de la représentation graphique de :math:`f` est donnée ci-dessous.
 

@@ -31,12 +31,13 @@ C)  Montrez que :math:`f(x)` peut aussi s’écrire sous la forme :math:`f(x) = 
 D)
 
     Une particule se déplace en ligne droite de telle sorte que sa vitesse :math:`v` ( en :math:`ms^{-1}` ),
-    au temps :math:`t` (en secondes), est donnée par :math:`v = 240 + 20t -10t^2` , avec :math:`0 \le t \le 6`.
+    au temps :math:`t` (en secondes), est donnée par :math:`v = 240 + 20t -10t^2` , avec :math:`0 \leq t \leq 6`.
 
     i)  Trouvez la valeur de :math:`t` quand la vitesse de la particule est la plus grande.
 
     ii) Trouvez l’accélération de la particule quand sa vitesse est nulle.
 
-	
+
+
 
 

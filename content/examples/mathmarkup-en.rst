@@ -5,9 +5,9 @@ Some Example RST Math Mark Up
 :date: 2024-12-08 06:02:51+00:00
 :tags: math markup, examples
 :slug: mathmarkup
-:category: Exemples
+:category: Examples
 :authors: Pierre Bernatchez
-:summary: Exemples
+:summary: Examples of math mark up
 
 .. |copy| unicode:: 0xA9 .. copyright sign
 		    

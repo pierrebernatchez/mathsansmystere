@@ -31,3 +31,6 @@ C) La région grisée :math:`R` est limitée par la représentation graphique de
    i)  Donnez une expression de l’aire de :math:`R`.
 
    ii) Trouvez l’aire de :math:`R`.
+
+
+       

@@ -3,7 +3,7 @@ Calcul Q 015.
 
 :lang: fr
 :date: 2024-12-08 20:55:13+00:00
-:TAGS: calculus
+:tags: calcul
 :slug: cal015
 :category: Calcul
 :authors: Pierre Bernatchez
@@ -18,7 +18,7 @@ A)
 
 B)
 
-   Dans l'intervalle :math:`f\frac{\pi}{4} \le x \le \frac{3\pi}{4}`,
+   Dans l'intervalle :math:`f\frac{\pi}{4} \leq x \leq \frac{3\pi}{4}`,
    une normale à la représentation graphique de :math:`f` a pour équation :math:`x = k`.
 
    Trouvez la valeur de :math:`k`.

@@ -14,7 +14,7 @@ Calcul Q 017.
    :alt: grid_5_12
 
 
-Soit :math:`f(x) = Cos(e^x)`, pour :math:`-2 \le x \le 2`.
+Soit :math:`f(x) = Cos(e^x)`, pour :math:`-2 \leq x \leq 2`.
 
 
 A)

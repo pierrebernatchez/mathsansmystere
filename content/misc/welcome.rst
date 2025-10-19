@@ -4,7 +4,7 @@ Welcome
 :lang: en
 :date: 2015-03-19 11:47:31
 :tags: Welcome
-:slug: welcome
+:slug: sitehome
 :category: Miscellaneous
 :authors: Pierre Bernatchez
 :summary: Welcome

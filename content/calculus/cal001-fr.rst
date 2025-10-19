@@ -10,14 +10,17 @@ Calcul Q 001.
 :summary: Question d'éxercice
 
 .. |figure_x1| image:: images/figure_x1.png
-   :scale: 100 %
+   :height: 512px
+   :width:  512px
    :alt: figure_x1
+	   
 	  
-Soit la fonction :math:`f(x) = 6x^2-3x` representé ci-dessous.
+|figure_x1| 
+
+Soit la fonction :math:`f(x) = 6x^2-3x` representé ci-haut.
 
 La figure n'est pas à l'échelle.
 
-|figure_x1| 
 
 
 A) Trouvez :math:`\int \! (6x^2-3x) \, \mathrm{d}x`.
@@ -29,3 +32,5 @@ B)
    l’axe des abscisses et les droites :math:`x = 1` et :math:`x = 2`.
    
    C'est à dire :math:`\int_1^2 \! (6x^2-3x) \, \mathrm{d}x`.
+
+

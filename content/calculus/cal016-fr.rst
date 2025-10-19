@@ -10,7 +10,7 @@ Calcul Q 016.
 :summary: Question d'éxercice
 
 
-Une particule :math:`P` se déplace le long d’une droite. Le vecteur vitesse :math:`v` :math:`ms^{-1}` de :math:`P` après :math:`t` secondes est donnée par :math:`v(t) = 7 cos t - 5t^{cos t}`, pour :math:`0 \le t \le 7`.
+Une particule :math:`P` se déplace le long d’une droite. Le vecteur vitesse :math:`v` :math:`ms^{-1}` de :math:`P` après :math:`t` secondes est donnée par :math:`v(t) = 7 cos t - 5t^{cos t}`, pour :math:`0 \leq t \leq 7`.
 
 Le diagramme suivant montre la représentation graphique de :math:`v`.
 

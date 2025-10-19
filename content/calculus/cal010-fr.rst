@@ -13,7 +13,7 @@ Calcul Q 010.
    :scale: 60%
    :alt: temp_polynom_minus4_to_3
 	  
-Une fonction :math:`f` est définie pour :math:`-4 \le x \le 3`.
+Une fonction :math:`f` est définie pour :math:`-4 \leq x \leq 3`.
 
 La représentation graphique de :math:`f` est donnée ci-dessous.
 
@@ -37,3 +37,6 @@ C)
    Au point :math:`D` sur la représentation graphique de :math:`f`, l’abscisse est :math:`-0,5`.
    
    Expliquez pourquoi :math:`f^{\prime\prime}(x) < 0` en :math:`D`.
+
+
+   
